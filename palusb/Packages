@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: wget
 Filename: ./data-palusb.deb
-Size: 1088
-MD5sum: 13b44d92980ceff2cc4fe22ff47e8ef1
-SHA1: 3a94f2d18b7ef62dfad2b3be1d13271159f0ecdf
-SHA256: 6e5fe9152e80ab44676bb79cac6b393961a593bdfed35160bb5653d7f722c066
+Size: 1052
+MD5sum: e48ed48cd401431b5a25c73a574726c9
+SHA1: a47452ddacad893b5ee28899d5f4e70d0b2e0317
+SHA256: 468db3cbbe621cca79e0939726ee772589e0f8fe1ed688ad5c9c12bb9fb5d812
 Priority: optional
 Description: This will copy the lut files, json files and logger.o.
 
@@ -16,10 +16,10 @@ Version: 1.0.0
 Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./engine-palusb.deb
-Size: 30988
-MD5sum: 1670ab9b095bbb93b4cedf1bb286ebb0
-SHA1: 7c2a38a9cdb408cd39e03e5f514f9323dd6d4759
-SHA256: 3dc4e7c9f7cd89c624a292bd30eab313f7be3aecbbb13d104cf7c5b9d944a256
+Size: 30980
+MD5sum: 3653c0ce310116f202a86d0a33c12b32
+SHA1: c8ff0b70d64f9a0f1d179df1d489b457c620341f
+SHA256: b3849cb609c19d2b7851b4e8efa2bfb02bf9d7f3615be293ad15e7411726e088
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$SUDO_USER/DreamVu/buildEngine/.
 
@@ -29,9 +29,9 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./jetsongpio-palusb.deb
 Size: 1009840
-MD5sum: b8931820e366646d7e91805c57eff160
-SHA1: 74e7a9ab974eeddd755ce3634bf2199494b4053a
-SHA256: 4d29227cb3bb38ac5db43800463ab1fc26cb91c85b783dcc092ee26ac5e13fbf
+MD5sum: 8b9b38a314e173359a57ebc8a9df1134
+SHA1: 95b1f323a177deb8584793aafcf32753e099cced
+SHA256: 0f4572e9f61b8f8deaa74a87ab7381ad04629986cfb806512efba33823157706
 Priority: optional
 Description: This will install JetsonGPIO for PAL USB.
 
@@ -41,10 +41,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3.6-dev, python3.6-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy
 Filename: ./miscellaneous-palusb.deb
-Size: 288724
-MD5sum: 179da6e1f0be0434040cca6539165de2
-SHA1: 1616b6b59941e95e84977efcd7524d47a4e70109
-SHA256: de5a950ca8386a189bd0aa9f37de0716b733d75fbf4c4c808e9afef217ecdd2f
+Size: 288712
+MD5sum: 52137496de1baaa9f0efd794e58fc292
+SHA1: d414addcf8152a5ae4336633cf5e7cfe4f9e86b6
+SHA256: 72c7c2319f303bbb0f4099d887441611b2359b0129c1461a37d4d35a3aae6bd8
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-usb.
 
@@ -66,10 +66,10 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: opencv-palusb, jetsongpio-palusb, data-palusb, engine-palusb, miscellaneous-palusb, build-essential, curl, git-lfs, python3.6-dev, python3.6-venv, libglew2.0, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, git, xorg, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev
 Filename: ./pal-usb.deb
-Size: 2240
-MD5sum: 6942ab33a793806d9ae8d3912c1cd5ff
-SHA1: 4fd001a41dd01904b51e5f8fcd09ca18edc20656
-SHA256: 5cfa80270175c4037ff4b5da2b6b8a9b33ea8a5999bce4b5523e1212458ab2ce
+Size: 2200
+MD5sum: 34ba30777526d0065dc6178ed0e9855d
+SHA1: eadb7aeac2c4699550fa5612687bd238d51de1c3
+SHA256: 0a269c007c5bf66b3ad685273b6a29b49a2c1abfaae2f25acde932f42de595c0
 Priority: optional
 Description: This will install PAL USB along with it's dependencies.
 
