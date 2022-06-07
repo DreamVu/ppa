@@ -1,3 +1,6 @@
 Miscellaneous[[:space:]]Deps/ filter=lfs diff=lfs merge=lfs -text
 *.tar.gz filter=lfs diff=lfs merge=lfs -text
 Miscellaneous[[:space:]]Deps/activation.tar.gz filter=lfs diff=lfs merge=lfs -text
+lut_Package_files/lut.tar.gz filter=lfs diff=lfs merge=lfs -text
+Engine/data.tar.gz filter=lfs diff=lfs merge=lfs -text
+Engine/generate.tar.gz filter=lfs diff=lfs merge=lfs -text
