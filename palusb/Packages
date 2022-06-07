@@ -1,0 +1,12 @@
+Package: data-palusb
+Version: 1.0.0
+Architecture: all
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Filename: ./data-palusb.deb
+Size: 1068
+MD5sum: 3173833005b1b14cadfaaee5d625bc14
+SHA1: c9c1f04e49bb3a76c351a8ab2f0c135aef8f33bf
+SHA256: ce2098e79bab74c82757ceb9f9d8f808c381ecd8c50d12d03ddcbdd7a22f23e7
+Priority: optional
+Description: This will copy the lut files, json files and logger.o.
+
