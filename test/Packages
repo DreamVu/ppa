@@ -1,0 +1,15 @@
+Package: imagedisplay
+Version: 1.5-1
+Architecture: all
+Maintainer: Debashish Roy <droy0528@gmail.com>
+Installed-Size: 2
+Depends: python3-opencv
+Filename: ./display.deb
+Size: 1604
+MD5sum: a24bc8ceebb7a3e41f3ff747dbe6b809
+SHA1: 48ff0302457eaaa070089d9aa669efc70d000b27
+SHA256: c8e22df6a3bb85b1cf5940cf19b6031e1e00c6053e04a1a4d0c0687d52ec5f63
+Section: extras
+Priority: optional
+Description: This script display image based on the path provided
+
