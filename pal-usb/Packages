@@ -5,9 +5,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: wget
 Filename: ./data-pal-usb.deb
 Size: 1064
-MD5sum: 565f870e6a8dc1337c1b1cb7566c3134
-SHA1: c4c30d81e8cf9e16f680719424d79856dfbd9abd
-SHA256: d957e1747aea7610faa78880d0b572c50eda72230f89a0b9db4dd0f541a465d1
+MD5sum: 6b21fc0e21960d04ef284c8b17d0af01
+SHA1: 08aba7dc83be23a79a94e46d60cac54a516e6331
+SHA256: 9a1a642c1c285f2da07d7bdba54709308225a2ea2ddaae1abbcedd35ec976310
 Priority: optional
 Description: This will copy the lut files, json files and logger.o.
 
@@ -17,9 +17,9 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./engines-pal-usb.deb
 Size: 31048
-MD5sum: 34570806c489dd752b2c2c98df09f7ae
-SHA1: 25715fedeb2e0d3f64930b395f653aace278f57c
-SHA256: af3abe619a5bb88b0cc03f0b778f5607fe343f976d6aae00df4882f24b1ef975
+MD5sum: 342bef379eba8c99a3721a6c51aa0b51
+SHA1: d3588e3fbfb3965d95b8e16057e1a92b5b4c6913
+SHA256: fd6dc804ca3a57eb692a88aaf4a5c9100f34c835da4adf47ad3a75c2a8147252
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$SUDO_USER/DreamVu/buildEngine/.
 
@@ -29,9 +29,9 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./jetsongpio-pal-usb.deb
 Size: 1009820
-MD5sum: 9098efbf23125dbe5f484f5bd52c9fc6
-SHA1: eda2740a9595568eb22818adda30b468b6eaab8d
-SHA256: d2a6e78b3663a08e02616eb04a8f316320c89e0dd85f67106fcd9bfc5c38a334
+MD5sum: c3fc4a6c836c42577219ec6a9ecaccd0
+SHA1: 1ae6716523dcf8f079d6b935b703578ff14d6910
+SHA256: 69e4e679b7e134aa3a0de6cf576311718787b81e372d066ac4abab87ee63bf01
 Priority: optional
 Description: This will install JetsonGPIO for PAL USB.
 
@@ -42,9 +42,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3.6-dev, python3.6-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy
 Filename: ./miscellaneous-pal-usb.deb
 Size: 288972
-MD5sum: 967de33783ec6b8837ad6c682fcd5254
-SHA1: a5f7cee9d5f2dcf4b9b8364c32afddf49b2deeef
-SHA256: be664c043d28e152ec537da3aa3167255a8d3c9d5e2bd34ed0dbb32741e49383
+MD5sum: 26e9a26721e0cba2077d4764719964fc
+SHA1: 442a4bed860d79bda5225981932a6484a6b83b5b
+SHA256: 010bff87a7177f72b1286725539e8b8d473eae2082fcc574ae5e23729f2c2c17
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-usb.
 
@@ -54,9 +54,9 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./opencv-pal.deb
 Size: 9659488
-MD5sum: 7c353764dcb6c2c11381604c44b549de
-SHA1: 5c53ec14e7290c705a24527cce42b3e79fc887a8
-SHA256: c8b1a002451b1b7f24f1aa847c1801f79b34db3aa9a78afdae98443c38250f1a
+MD5sum: 784c740b0f47f838b7f305471c4f4eb7
+SHA1: 00edb1cc1f031ec0c6e485cbe687e209ad17bf7f
+SHA256: ce33aea73e21512b7fb59bd78e6f554b33ece75f02a6a6c445a3c14e6f768504
 Priority: optional
 Description: This will install Open CV customized for PAL USB.
 
@@ -66,10 +66,10 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: opencv-pal, libeigen3-dev, jetsongpio-pal-usb, data-pal-usb, engines-pal-usb (>=1.0.1), miscellaneous-pal-usb, build-essential, curl, git-lfs, python3.6-dev, python3.6-venv, libglew2.0, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, git, xorg, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev
 Filename: ./pal-usb.deb
-Size: 2300
-MD5sum: 5f3460c8062a991673a4d03589cc0b91
-SHA1: 39ebb80a75dfcfff0712ba51d8f7c30d59d0ce82
-SHA256: 28a7d926eb1ceb760b9cf5bb606001db46ba56ddff2b819ae77cbdc4f04dd91b
+Size: 2308
+MD5sum: 4e1debbe9312dd59968dcf75539ee06e
+SHA1: 7c14ab1242103bf82e73effbb0ae6abb2a462355
+SHA256: d93591168f11168f3398e93c0781377673ee4186705af553c5f8d0a4afa9ebd4
 Priority: optional
 Description: This will install PAL USB along with it's dependencies.
 
