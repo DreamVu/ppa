@@ -1,0 +1,24 @@
+Package: jetsongpio-pal-usb
+Version: 1.2.2
+Architecture: all
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Filename: ./jetsongpio-pal-usb.deb
+Size: 1009820
+MD5sum: c3fc4a6c836c42577219ec6a9ecaccd0
+SHA1: 1ae6716523dcf8f079d6b935b703578ff14d6910
+SHA256: 69e4e679b7e134aa3a0de6cf576311718787b81e372d066ac4abab87ee63bf01
+Priority: optional
+Description: This will install JetsonGPIO for PAL USB.
+
+Package: opencv-pal
+Version: 4.4.0
+Architecture: arm64
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Filename: ./opencv-pal.deb
+Size: 9659488
+MD5sum: 784c740b0f47f838b7f305471c4f4eb7
+SHA1: 00edb1cc1f031ec0c6e485cbe687e209ad17bf7f
+SHA256: ce33aea73e21512b7fb59bd78e6f554b33ece75f02a6a6c445a3c14e6f768504
+Priority: optional
+Description: This will install Open CV customized for PAL USB.
+
