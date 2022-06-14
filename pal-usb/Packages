@@ -5,9 +5,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: wget
 Filename: ./data-pal-usb.deb
 Size: 1064
-MD5sum: 6b21fc0e21960d04ef284c8b17d0af01
-SHA1: 08aba7dc83be23a79a94e46d60cac54a516e6331
-SHA256: 9a1a642c1c285f2da07d7bdba54709308225a2ea2ddaae1abbcedd35ec976310
+MD5sum: 5fe8baeb43370cadbaf731265dc32053
+SHA1: bff2fe70b8fbac8ec3ee1cd9ec157c2f1cc6fd74
+SHA256: bd94b9604bd326543232476aac12abe49393c0ddeac44c77df2f7525a00b04c4
 Priority: optional
 Description: This will copy the lut files, json files and logger.o.
 
@@ -17,9 +17,9 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./engines-pal-usb.deb
 Size: 31048
-MD5sum: 342bef379eba8c99a3721a6c51aa0b51
-SHA1: d3588e3fbfb3965d95b8e16057e1a92b5b4c6913
-SHA256: fd6dc804ca3a57eb692a88aaf4a5c9100f34c835da4adf47ad3a75c2a8147252
+MD5sum: b940d6a270f1f145a4f5d9d7d9f921c1
+SHA1: ecbb3c107fbd76e82f461626ceeabac6c9b6db0d
+SHA256: 892b24517e70162c2c7a74398cc10b9b3b258ea3e41fe5d5080e2fd1a09a02b9
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$SUDO_USER/DreamVu/buildEngine/.
 
@@ -30,9 +30,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3.6-dev, python3.6-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy
 Filename: ./miscellaneous-pal-usb.deb
 Size: 288972
-MD5sum: 26e9a26721e0cba2077d4764719964fc
-SHA1: 442a4bed860d79bda5225981932a6484a6b83b5b
-SHA256: 010bff87a7177f72b1286725539e8b8d473eae2082fcc574ae5e23729f2c2c17
+MD5sum: ff95f19f3998d73d435cd57d0dfe37d8
+SHA1: 786720007625bd90e9cba1eb47e9cb957643af7c
+SHA256: b77e36e65da8b9c857b0ad8dc7db16b6caeced31d1a65b48937a1cb4c151f332
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-usb.
 
@@ -43,9 +43,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: opencv-4.4.0-dvu, libeigen3-dev, jetsongpio-dvu, data-pal-usb, engines-pal-usb (>=1.0.1), miscellaneous-pal-usb, build-essential, git-lfs, python3.6-dev, python3.6-venv, libglew2.0, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, git, xorg, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev
 Filename: ./pal-usb.deb
 Size: 2308
-MD5sum: ea88c59e0655af5719f2d9b643b2fd12
-SHA1: 30dcb57279b78db4578763d9f3cb703fd9c48f2e
-SHA256: 9201d1fad424d73d877118393cbcdedc523fb5f899d73a0a95cb48a9ebd4d03b
+MD5sum: 92e2d4066e9dd9a23189d0af6c2e518c
+SHA1: 72f8eb979a647cdf6494f254a505b772553868ef
+SHA256: 37387d473371ea3c397ef7c9dd1e661e4b400328d048e970d8c54d947157e8f9
 Priority: optional
 Description: This will install PAL USB along with it's dependencies.
 
