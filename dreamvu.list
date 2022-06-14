@@ -1,2 +1,3 @@
 deb https://dreamvu.github.io/ppa/pal-usb ./
 deb https://dreamvu.github.io/ppa/common ./
+deb http://packages.ros.org/ros/ubuntu bionic main

@@ -1,24 +1,37 @@
-Package: jetsongpio-pal-usb
+Package: jetsongpio-dvu
 Version: 1.2.2
 Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Filename: ./jetsongpio-pal-usb.deb
-Size: 1009820
-MD5sum: c3fc4a6c836c42577219ec6a9ecaccd0
-SHA1: 1ae6716523dcf8f079d6b935b703578ff14d6910
-SHA256: 69e4e679b7e134aa3a0de6cf576311718787b81e372d066ac4abab87ee63bf01
+Filename: ./jetsongpio-dvu.deb
+Size: 1009804
+MD5sum: 3cc5336ed44040a78b9fdd6e7aa010da
+SHA1: 48220ed52befea25e8fbdfbfb9d7c3832941e976
+SHA256: 51842b173dc179f295d5d1254c6cb8691f3b5752704dcf17d33886e77d1e70ba
 Priority: optional
-Description: This will install JetsonGPIO for PAL USB.
+Description: This will install JetsonGPIO.
 
 Package: opencv-pal
 Version: 4.4.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Filename: ./opencv-pal.deb
+Filename: ./opencv-4.4.0-dvu.deb
 Size: 9659488
-MD5sum: 784c740b0f47f838b7f305471c4f4eb7
-SHA1: 00edb1cc1f031ec0c6e485cbe687e209ad17bf7f
-SHA256: ce33aea73e21512b7fb59bd78e6f554b33ece75f02a6a6c445a3c14e6f768504
+MD5sum: b196bd71c6144df4339f4552c90fa376
+SHA1: f77ffad6abec7cf5371650cfb0aff4e1a8f0f790
+SHA256: 2b88ca62783c8553f5fc226d150fcd0017dcf603de20bc1c4571d18ef6a8d300
 Priority: optional
 Description: This will install Open CV customized for PAL USB.
+
+Package: ros-melodic-dvu
+Version: 1.0
+Architecture: arm64
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Depends: ros-melodic-desktop, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
+Filename: ./ros-melodic-dvu.deb
+Size: 976
+MD5sum: 97de503a8af7fafb86c0534d408a3de4
+SHA1: af49f7894a23f68d91c4d67a28774ee2775eba85
+SHA256: add20d8dc2fd90079c883c8affe2996cd96ae5e1078e708f1d3c2df8e589504b
+Priority: optional
+Description: This will install PAL USB along with it's dependencies.
 
