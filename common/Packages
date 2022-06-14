@@ -10,15 +10,15 @@ SHA256: 51842b173dc179f295d5d1254c6cb8691f3b5752704dcf17d33886e77d1e70ba
 Priority: optional
 Description: This will install JetsonGPIO.
 
-Package: opencv-pal
+Package: opencv-4.4.0-dvu
 Version: 4.4.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./opencv-4.4.0-dvu.deb
-Size: 9659488
-MD5sum: b196bd71c6144df4339f4552c90fa376
-SHA1: f77ffad6abec7cf5371650cfb0aff4e1a8f0f790
-SHA256: 2b88ca62783c8553f5fc226d150fcd0017dcf603de20bc1c4571d18ef6a8d300
+Size: 9659496
+MD5sum: 1329be421ce0c75989e8e5236e136779
+SHA1: 85eb55dce135c95e5a7319a666745615498e7ff2
+SHA256: 5d49cf6664c261607a234cad787c51f78f1b84c66383f59d9624c54eaf49b7fd
 Priority: optional
 Description: This will install Open CV customized for PAL USB.
 
