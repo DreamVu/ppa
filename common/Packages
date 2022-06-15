@@ -1,12 +1,25 @@
+Package: dreamvu-ros
+Version: 1.0
+Architecture: arm64
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Depends: ros-melodic-desktop, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
+Filename: ./dreamvu-ros.deb
+Size: 1036
+MD5sum: e0f89931df80fc1da6a5db7b7759d27d
+SHA1: f54912ba204bcaf28762b937f978aac525dc1bd5
+SHA256: 966eb53df6b3c3313af8aaacfb4ea8ffb85a6cb115f83c21898a9dc2a98a34c4
+Priority: optional
+Description: This will install ROS Melodic.
+
 Package: jetsongpio-dvu
 Version: 1.2.2
 Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./jetsongpio-dvu.deb
 Size: 1009804
-MD5sum: b0ec8f0e25e888f75c90e38f537a71ac
-SHA1: 8a244693bcf3ea27418f8a038f077c7adf352088
-SHA256: 56d23bf247ed3b264e77b4d385bfa790e4f9484e3942fa29e08ba51744b4bf71
+MD5sum: 4e22f25b71d05779987b70a1c4f19e62
+SHA1: dca8cf34276f00c914be70c381252983782f5a12
+SHA256: 65596c817def46940c205ee57731ef255b1ee331f74accbc1d7022eac3fc5133
 Priority: optional
 Description: This will install JetsonGPIO.
 
@@ -16,22 +29,9 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./opencv-4.4.0-dvu.deb
 Size: 9659496
-MD5sum: bf6813cb43e60b753055aa83ac37c52f
-SHA1: bd1b758b0b4fe2a5ba3335b98e81d06b6ea31bbb
-SHA256: 1d19dc87bc05c6765d6f9f4f6c8b27621f8735c4f52241cd2692868941153314
+MD5sum: b3ed17ba1c97a6d409a14bbbed3621f9
+SHA1: aaf3f8c1081230983d34362d49e42981b09894cd
+SHA256: 8bc6d878ee6e657e4c18e823f1ae4c82292631aacec65b3efc414b174fd8c62a
 Priority: optional
 Description: This will install Open CV customized for PAL USB.
-
-Package: ros-melodic-dvu
-Version: 1.0
-Architecture: arm64
-Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Depends: ros-melodic-desktop, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
-Filename: ./ros-melodic-dvu.deb
-Size: 1036
-MD5sum: afc0c2c65de28d8df49287b0e96ccee9
-SHA1: c349df7aa6888a3713fd31aa4032032129af5956
-SHA256: f792d2215afd6b2df8a66575f903af7ecc09b865d943f4b9b7864904337b945e
-Priority: optional
-Description: This will install ROS Melodic.
 
