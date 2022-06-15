@@ -4,10 +4,10 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./dreamvu-ros.deb
-Size: 1036
-MD5sum: e0f89931df80fc1da6a5db7b7759d27d
-SHA1: f54912ba204bcaf28762b937f978aac525dc1bd5
-SHA256: 966eb53df6b3c3313af8aaacfb4ea8ffb85a6cb115f83c21898a9dc2a98a34c4
+Size: 1064
+MD5sum: 7f06d530b463bfbd83e4e091f40ab86e
+SHA1: 8f5887dc9ad64ee6b81408ecaa2058058d7f7722
+SHA256: 921d087ea7da41cf2f723519d85f690ee18423d945a6000062918685cf1b6227
 Priority: optional
 Description: This will install ROS Melodic.
 
