@@ -29,10 +29,10 @@ Version: 1.0.3
 Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-usb/engines-pal-usb.deb
-Size: 242220
-MD5sum: e2ed03cb960577778178c477f9ed4646
-SHA1: 0333a2376149daa298508360846c606a192c377a
-SHA256: f1103f99e1d35a504db728511d4c40d62d243f94d269acbe8640dd72f3b3d56a
+Size: 242204
+MD5sum: 96b8fe044f41c4320805227ff82a5aa0
+SHA1: 6d6913b8b5ca47b07957591a1cc45080a7d7b16b
+SHA256: f81c93a282b79b2664559c52900514c9980f562b0ef47655a26126bf5d0abed0
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$SUDO_USER/DreamVu/buildEngine/.
 
