@@ -167,10 +167,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, openvino-2022.1.0, ppa-pal-mini, engines-pal-mini, lut-pal-mini, opencv-dvu, miscellaneous-pal-mini
 Filename: ./pal-mini/pal-mini-amd64.deb
-Size: 2346
-MD5sum: e5ac4bf511ad75d811e0834118fd5ed6
-SHA1: 7e8aff59ad511a81cfee1ddba3f366435b69631d
-SHA256: e258eb1002342d82748bb312e78b6595741961c7a326bedd78e385806f51f70a
+Size: 2328
+MD5sum: 62c1a232c36b2e7f7571fc7f37eeb355
+SHA1: 12bc5a7a577bdaace775194a0528b9050393deda
+SHA256: 4c76635005ee5453a5db439eeb8901d97b74fa95560280b33a5d7fafe900974f
 Priority: optional
 Description: This will install PAL Mini along with it's dependencies.
 
