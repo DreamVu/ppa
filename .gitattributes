@@ -5,3 +5,4 @@ lut_Package_files/lut.tar.gz filter=lfs diff=lfs merge=lfs -text
 Engine/data.tar.gz filter=lfs diff=lfs merge=lfs -text
 Engine/generate.tar.gz filter=lfs diff=lfs merge=lfs -text
 .tar.gz filter=lfs diff=lfs merge=lfs -text
+common/opencv-3.4.4-dvu.deb filter=lfs diff=lfs merge=lfs -text
