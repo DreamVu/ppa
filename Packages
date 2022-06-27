@@ -68,10 +68,10 @@ Version: 1.0
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-amd64.deb
-Size: 1130
-MD5sum: ab9058845d853a552032b7b597450b65
-SHA1: 269700c410437f5a6a369248842a962ab03784c5
-SHA256: 9239fbf558c0224e0dcd0c6467e4fd99c5e4b319b1fe7c0497cf3c7f83c989b1
+Size: 1140
+MD5sum: 65d4861d55a50adf95e3faf72f076913
+SHA1: a6bce363c5a861b7046f60be3d0d194ef2e624a8
+SHA256: 69c3ebf99e5f203473af7b7c78a82c67badf8a539c5d655d6991c81d715b062a
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -104,10 +104,10 @@ Version: 1.0.0
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/lut-package-amd64.deb
-Size: 760
-MD5sum: f1a6afe3c3b55d3d8adedb6cf1089b99
-SHA1: e6902f68b5569ea2d460f4f794d2563f6398ed0b
-SHA256: 15f53400aeaa6548270d5618e114ec58155efc11e54e9064c30b288f0d5da2e8
+Size: 738
+MD5sum: 8bc0d6a3256586accc8a19ae0dd1b37d
+SHA1: ccfd3adf95c3a063dc603feb80704e5bcf73aed5
+SHA256: 2ed020e9b342d3d0e0bc9c150812122621c77469c66c9f36485710df656743dc
 Priority: optional
 Description: This will copy the lut files to the root directory.
 
