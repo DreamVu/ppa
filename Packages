@@ -165,12 +165,12 @@ Package: pal-mini
 Version: 4.1
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Depends: build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, openvino-2022.1.0, ppa-pal-mini, engines-pal-mini, lut-pal-mini, opencv-dvu, miscellaneous-pal-mini
-Filename: ./pal-mini/pal-mini.deb
-Size: 2328
-MD5sum: c8abdd470decee5254a42fa7aecb94fe
-SHA1: 41e034ef1fc40936930f0495aa0f81288a95e1ed
-SHA256: 5db251775a3c7cd4db579d17d446a695c707e458e3b1eb9eef90a66146e3dd9c
+Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, openvino-2022.1.0, ppa-pal-mini, engines-pal-mini, lut-pal-mini, opencv-dvu, miscellaneous-pal-mini
+Filename: ./pal-mini/pal-mini-amd64.deb
+Size: 2324
+MD5sum: b63e8b5c43d08b89724014c8fa53040c
+SHA1: 846339c33e704c1f8f5ba231dfd92d89e3cb9488
+SHA256: 73c561c289c2434acecfcddf320f7e1ddcd95ce595862ecc8e6d95cd5c5ce4b8
 Priority: optional
 Description: This will install PAL Mini along with it's dependencies.
 
