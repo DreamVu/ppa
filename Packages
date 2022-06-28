@@ -206,10 +206,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: git, ros-melodic-ecl-streams, ros-melodic-depthimage-to-laserscan, ros-melodic-joy, ros-melodic-yocs-velocity-smoother, ros-melodic-gmapping, ros-melodic-laser-filters, ros-melodic-amcl, ros-melodic-move-base, ros-melodic-map-server, ros-melodic-kobuki-core, ros-melodic-kobuki-dock-drive-dbgsym, ros-melodic-kobuki-driver-dbgsym, ros-melodic-kobuki-ftdi-dbgsym, ros-melodic-kobuki-dock-drive, ros-melodic-kobuki-driver, ros-melodic-kobuki-ftdi, ros-melodic-kobuki-msgs
 Filename: ./common/ros-melodic-turtlebot-nav-amd64.deb
-Size: 1050
-MD5sum: 3a23b4294a2ca8c0933780105c7411c4
-SHA1: 31b76143e1e0482b2b6e9e903a51ba4a89e31391
-SHA256: 450358b54add5079ce29247088a0d933b6ef77e6fd64a406b69b043528b92386
+Size: 1086
+MD5sum: c936762618dc0a35e11cff32573ac786
+SHA1: f7a114d50a1266b0c1808d1c3faf4fefeb87bd70
+SHA256: d2e34926675e78f792755b1a1e9574705656c2709a48a38b2b801d455ef5617a
 Priority: optional
 Description: This will install turtlebot_nav.
 
