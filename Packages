@@ -31,9 +31,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/dreamvu-ros-foxy.deb
 Size: 1202
-MD5sum: 8422b495c286a6d41a8bc9d2b36be2d4
-SHA1: 1a017b3257888da39965174bbfb5b8cb39df14eb
-SHA256: 9a866bf5d3522cbf0bda041992b6d762a3b9b732993b7046a6fad0e1a6fcafe6
+MD5sum: cc0c61470cd91c48c4e0e9998dab5625
+SHA1: 95caf5aeb6101e6e19eade54ddfb189e1d25762b
+SHA256: dc0634bfd84d64a318eb30324ddc6ed3026df3c3b7cab75a85412dc1ec1eb74f
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -44,9 +44,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/dreamvu-ros-melodic.deb
 Size: 1068
-MD5sum: 45f1672cbbd683625dcd4a1e50dfe6b3
-SHA1: 121aa78df698e78c93a4ec401d3b5b51e706136a
-SHA256: 156da085066cb53380b9ae00e5613697e0afedafd3fdff7979e2e85fb477ae94
+MD5sum: bce2dab7a16c2a73e414588cea549116
+SHA1: 34c3b74308ac1493b40f0d78fc63f5c3ec28cc12
+SHA256: dcb155a1bbe29ff18f7ce1c2831f5b75982ae3656512dbee8594b1bf11ff2979
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -57,9 +57,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-noetic-desktop, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./common/dreamvu-ros-noetic.deb
 Size: 1072
-MD5sum: ac76ddb7c82da37b05a4c50868025b32
-SHA1: 79fb4a7bea04de4f2f512ec76c45667823308fce
-SHA256: f11924ac711fe9bd1f95631db00e14e6828c68cfd7e8b40c2386119bf1c0ca4a
+MD5sum: 7f12bcb47935631039fd6e22a2b2b0d7
+SHA1: b9ee10ac7a67d728d64b490ccd6fe596c01dc95a
+SHA256: da81034830cb0c0514e829b6a46661913542c173e4653ca7e00af583196d6626
 Priority: optional
 Description: This will install ROS Noetic.
 
@@ -69,9 +69,9 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-amd64.deb
 Size: 1146
-MD5sum: 5f7dcff060fe38d3d0cf5ef119c1f35b
-SHA1: 8b0c9f96d59271b5c57ee1fe0eee663353736591
-SHA256: 0bac3a61775e1cd5bced5cfd78ec6a33125d88285a652b1d26d0c2e91e3d35bb
+MD5sum: 7cbf957d9be56c5bad4bf4761601e0fb
+SHA1: 3775e006d937993a572221f886de68575d8f2fad
+SHA256: 7dc82b3b3adcb59e4ea1eaa51c5c390ce14c67e4c95f86d04fdf4a6a37ef59ba
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -105,9 +105,9 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/lut-package-amd64.deb
 Size: 738
-MD5sum: cf5a91bd965306909e681b71faade41b
-SHA1: 9030719cb34ecde51b6254c4d99339529e254423
-SHA256: 9dbf5b52377a82f21afa82d08a642deb60ee5573c5e08414ec507eb63bf4e181
+MD5sum: 91399f81fd446e6e259b59529b45c7ce
+SHA1: 8a9bc79c73b3dd1ed399876915e5c106a5c6bbed
+SHA256: 0d74e96f66eeb56851ce666d760d640537ba8fa26b413ebcd0deea4541c686be
 Priority: optional
 Description: This will copy the lut files to the root directory.
 
@@ -118,9 +118,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-mini
 Filename: ./pal-mini/miscellaneous-pal-mini-amd64.deb
 Size: 43268
-MD5sum: 1106ec54ade712c3380f6521ea193052
-SHA1: aa213ca38e591e47554a552ccb17e2622d664d41
-SHA256: f481d88b9177cfb4855f1e439f0567a3c3f05faaf4339013f5dd1bd3a0ae50fa
+MD5sum: 2447d1d36568dda00bd7841de21ccbac
+SHA1: cb8f1a46eebac1fcc463aff9d1c3f1c98d5c0d3f
+SHA256: ebaafff43411e75a9e3f8fdd45e1316f29f39c0cba1706aef6df724438d1fa71
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
@@ -155,9 +155,9 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./common/opencv-dvu.deb
 Size: 1086
-MD5sum: 18ab64122b79961b1c26a78ecf9983a3
-SHA1: ca7dd224847ce1d7d9e964063a6361ea30a80485
-SHA256: ab27721787a1d511e2ab4a8298ab48cf97d0321ff31cb7e9117aa9a55ee855d4
+MD5sum: a2d51de857f581c3090451a03b8e34c2
+SHA1: 9bb9b2766b897cce523dbf614107b6b147a60451
+SHA256: 9825a96a54cb90802177c9a2dd708f8acb2776694133def8065c80654007dab8
 Priority: optional
 Description: This will install Open CV.
 
@@ -168,9 +168,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, openvino-2022.1.0, ppa-pal-mini, engines-pal-mini, lut-pal-mini, opencv-dvu, miscellaneous-pal-mini
 Filename: ./pal-mini/pal-mini-amd64.deb
 Size: 2350
-MD5sum: 3561b66ff7a4a4b0a782d3a9ef0dab3d
-SHA1: f4c5f6c08f136c122330c5f35b7c46ea1980b0a1
-SHA256: 85ae6ff91350363e4553141ad31cc8041b3aef88bddb5699436155caa7a12995
+MD5sum: a598bc7c0cee66bae64dd7b727928c23
+SHA1: a424e388152772e37a9d16c139fd3002b0121199
+SHA256: a1b9d3aee80822bc82d443e4deb24cb0c3da8256f6cb7622c36eac2d41f27bde
 Priority: optional
 Description: This will install PAL Mini along with it's dependencies.
 
@@ -194,9 +194,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: curl
 Filename: ./pal-mini/ppa-pal-mini-amd64.deb
 Size: 1030
-MD5sum: eeba3ba92b734567b48f07ee3b41fd57
-SHA1: c04d828ab8db8ed1956f40a6194eaa270f89c09f
-SHA256: f899e01f12dd5ccd30a67fd464c4f38747616bc3fa0d67594aeccdb2dd7c45dc
+MD5sum: 7db786510074bb27574d6b2ad5ca5baa
+SHA1: e4d08ee64d8e5f9837486b9cb59b3e22abe960cb
+SHA256: 9efe4c7cec12c53803adc65f67ab0a8ddf6f55c48a492567c8ecd641b8fb79eb
 Priority: optional
 Description: This will setup PPA for PAL-Mini dependency and also install CMake.
 
@@ -206,10 +206,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: git, ros-melodic-ecl-streams, ros-melodic-depthimage-to-laserscan, ros-melodic-joy, ros-melodic-yocs-velocity-smoother, ros-melodic-gmapping, ros-melodic-laser-filters, ros-melodic-amcl, ros-melodic-move-base, ros-melodic-map-server, ros-melodic-kobuki-core, ros-melodic-kobuki-dock-drive-dbgsym, ros-melodic-kobuki-driver-dbgsym, ros-melodic-kobuki-ftdi-dbgsym, ros-melodic-kobuki-dock-drive, ros-melodic-kobuki-driver, ros-melodic-kobuki-ftdi, ros-melodic-kobuki-msgs
 Filename: ./common/ros-melodic-turtlebot-nav-amd64.deb
-Size: 1150
-MD5sum: 8127701caaa6e2145176f2647ffa3a00
-SHA1: 9c305d1e318c414f0ad2633ca54654ed0f1595d8
-SHA256: 6bb5e54c4e6b8ce67670d9e80ace8f5a506d12bf92206b9df413bb34e8543060
+Size: 1144
+MD5sum: efe45ebd771d25bf9ee8f0acb56e3b2a
+SHA1: 5e497785af709002769b6d47a62427f88089df27
+SHA256: 166dc04d26e8d9798f58ab9eda440adaa70c20cf857a7ef7247b7cb50b065d37
 Priority: optional
 Description: This will install turtlebot_nav.
 
