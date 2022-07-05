@@ -11,18 +11,6 @@ SHA256: 332d0ae1f1abd9bacfc45cad78a2fba5898ec963d90303c60597bc7218f58799
 Priority: optional
 Description: This will copy the lut files, json files and logger.o.
 
-Package: dependency-pal-mini
-Version: 1.0.0
-Architecture: arm64
-Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Filename: ./pal-mini/ppa-pal-mini-arm64.deb
-Size: 966
-MD5sum: 39ed13996d11e1df4e466be4a94b0794
-SHA1: 6cd0aba0ae1c9389d0a94c2800ee02d6ce8b9166
-SHA256: 7bbcce325b290bb5beaaa9326aace7a84b3de4ea28176e710abceecdd971e5be
-Priority: optional
-Description: This will setup PPA for PAL-Mini dependency and also install CMake.
-
 Package: dreamvu-ros
 Version: 1.0
 Architecture: arm64
@@ -259,6 +247,18 @@ Size: 1030
 MD5sum: 7db786510074bb27574d6b2ad5ca5baa
 SHA1: e4d08ee64d8e5f9837486b9cb59b3e22abe960cb
 SHA256: 9efe4c7cec12c53803adc65f67ab0a8ddf6f55c48a492567c8ecd641b8fb79eb
+Priority: optional
+Description: This will setup PPA for PAL-Mini dependency and also install CMake.
+
+Package: ppa-pal-mini
+Version: 1.0.0
+Architecture: arm64
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Filename: ./pal-mini/ppa-pal-mini-arm64.deb
+Size: 978
+MD5sum: c0b6c75681fc821da8c85a18ddc243ab
+SHA1: 9fd4fdbd6a6fe57ede675cd84e1cf6a911170e81
+SHA256: 3e629bbfb23dfa96547fbeee11dc4f22bcd59d8e0339107f45ffe05a03fdb9a4
 Priority: optional
 Description: This will setup PPA for PAL-Mini dependency and also install CMake.
 
