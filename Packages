@@ -68,10 +68,10 @@ Version: 1.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-arm64.deb
-Size: 36060
-MD5sum: 16bacdc946bae9b2da9e3d87b6e71d55
-SHA1: bb8372a19ca519e80d382185714fdc50b9c84f1e
-SHA256: f4d7ffccfce30c8ccdfddefedbe037463ba244b9aec40e0cd46a18b2d008b458
+Size: 36068
+MD5sum: e3bb87698dfec12c9f8f0a7bf8950062
+SHA1: e45a6207299d12df4312ab3158274059b97426d6
+SHA256: 962c89398266b2e470f8f6ee16d5e7abc75971cf56453c02caf98d182aa9308f
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -142,10 +142,10 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-mini
 Filename: ./pal-mini/miscellaneous-pal-mini-arm64.deb
-Size: 42420
-MD5sum: 0f7ec46ec2a3b504a462138af77c16da
-SHA1: f12295abf8085f2267fb1841baeaa913a30b93e9
-SHA256: f3dfa0fe8e4fa6b6f8e462f03bafc21c7e6393c4ca49ef50e5dafc71c51e0964
+Size: 42646
+MD5sum: 9423f153b37e9034e3ccf161a751d350
+SHA1: 7d2b0a791479bc220370d95c258853574079899b
+SHA256: 1f897a49e219ccb9dfc24c8e3b126cda0e07fda0ca3d1433bc2418cdafd5c2a7
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
@@ -191,10 +191,10 @@ Version: 4.4.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./common/pal-mini/arm64/opencv-dvu.deb
-Size: 45645750
-MD5sum: 6ab6828914fc9ce636f3d0ea5231dbcc
-SHA1: 02c106c70cbf875dc45eab0ee698445fe6893a4a
-SHA256: 86ae4fee735917b1e399f95a382a9f10ec87894bf6056fe78d1c32ff7f2e0f07
+Size: 45645756
+MD5sum: ef16887bc0de91758a506c0f15cd1ba9
+SHA1: 493de34a5e78facc6c36112096a7e303a422b284
+SHA256: 0474d941b728f80d952db178cfd6f43097f5fdbd983533091b4aa855cc112e00
 Priority: optional
 Description: This will install Open CV.
 
@@ -255,10 +255,10 @@ Version: 1.0.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/ppa-pal-mini-arm64.deb
-Size: 978
-MD5sum: c0b6c75681fc821da8c85a18ddc243ab
-SHA1: 9fd4fdbd6a6fe57ede675cd84e1cf6a911170e81
-SHA256: 3e629bbfb23dfa96547fbeee11dc4f22bcd59d8e0339107f45ffe05a03fdb9a4
+Size: 840
+MD5sum: 94ced2a468f01e90671250b8cf9ff3db
+SHA1: f9ef1e1acfe365fa33b6b989bf87fe14df871a7e
+SHA256: ccd42ef2d0d5c5b22c90229881efb5f9627b041d0c3c57c41402502116a73d22
 Priority: optional
 Description: This will setup PPA for PAL-Mini dependency and also install CMake.
 
