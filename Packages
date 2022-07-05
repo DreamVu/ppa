@@ -113,13 +113,13 @@ Description: This will install JetsonGPIO.
 
 Package: lut-pal-mini
 Version: 1.0.0
-Architecture: amd64
+Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Filename: ./pal-mini/lut-package-amd64.deb
-Size: 738
-MD5sum: 91399f81fd446e6e259b59529b45c7ce
-SHA1: 8a9bc79c73b3dd1ed399876915e5c106a5c6bbed
-SHA256: 0d74e96f66eeb56851ce666d760d640537ba8fa26b413ebcd0deea4541c686be
+Filename: ./common/pal-mini/lut-package.deb
+Size: 736
+MD5sum: 8b46a5e8b0db47205621f71056793a9d
+SHA1: bd19d985fb50252cbcf09779062f3ab975408db8
+SHA256: e09cab2c30fa36bf9094f4d2a46b271f1f3ae35ae04e8e8e6eea297391b81efe
 Priority: optional
 Description: This will copy the lut files to the root directory.
 
