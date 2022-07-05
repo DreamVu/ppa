@@ -69,9 +69,9 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-arm64.deb
 Size: 36068
-MD5sum: e3bb87698dfec12c9f8f0a7bf8950062
-SHA1: e45a6207299d12df4312ab3158274059b97426d6
-SHA256: 962c89398266b2e470f8f6ee16d5e7abc75971cf56453c02caf98d182aa9308f
+MD5sum: b2023b1dfc960f1154e93f74476f079c
+SHA1: f1be05963efa6bbd91e3d01da0c31360ef7bf945
+SHA256: 5dc63dd5eac9ecd7d3562c9ad58b35311a1dbdba3a8ec5445c1b1c810d7450d7
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -191,10 +191,10 @@ Version: 4.4.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./common/pal-mini/arm64/opencv-dvu.deb
-Size: 45645756
-MD5sum: ef16887bc0de91758a506c0f15cd1ba9
-SHA1: 493de34a5e78facc6c36112096a7e303a422b284
-SHA256: 0474d941b728f80d952db178cfd6f43097f5fdbd983533091b4aa855cc112e00
+Size: 45645742
+MD5sum: ffc17593c84a7243599af1e583b99705
+SHA1: 108f76b7e7383341a49887ded031444fac2fd6a4
+SHA256: 0dea663a40a17da6ee65e74a1dbab6abdfc1e455b6ce5ca90d320b455747ead9
 Priority: optional
 Description: This will install Open CV.
 
