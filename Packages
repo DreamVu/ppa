@@ -30,10 +30,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/pal-mini/dreamvu-ros-foxy.deb
-Size: 1196
-MD5sum: 238725ed4cfbea0fdb3fd5b82429b1ef
-SHA1: fdb72740546ecec3e08878d64d994bdd6e86af02
-SHA256: 1bd90fbb556097e67bdd12422db4a78aaa12506b4a7db3bed091cdd83d71d437
+Size: 1268
+MD5sum: 0e4c91ddb36af4a7d45cb610aa40b509
+SHA1: 9a0db5824351444f7171374c59d9684b7f9fa598
+SHA256: 15db7afcf769a12172b030638993b7420e52080673f8d8668276ac52c350625d
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -43,10 +43,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/pal-mini/dreamvu-ros-melodic.deb
-Size: 1060
-MD5sum: 9fbc72fb552e4b509f50c06bf7592245
-SHA1: 5c500fd7c983ce85ffc1b5961808ab012d6425ae
-SHA256: 3def462f2985579714ba01052b0b8a7404a7925bfed915d991d4d20bda0f7afd
+Size: 1132
+MD5sum: 2367283d2f02657c28a596809c043544
+SHA1: c6ab432d0de64889212095a83344585401c97e7b
+SHA256: d17c13ee9fdd835afdd509e9b030a02a66920ccefb0a5392a66179314ce09e99
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -56,10 +56,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-noetic-desktop, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./common/pal-mini/dreamvu-ros-noetic.deb
-Size: 1064
-MD5sum: be360e976db535418c182c1df51a6996
-SHA1: 76ddfb5228c48a48a42f9993150815712dac2107
-SHA256: 8e3b4fd887b59797f85871166cd2fc8e455b0ae0056897d18ec70d9cf76bc1b7
+Size: 1136
+MD5sum: a51d5c1fe242b408668b4a18a1fbd873
+SHA1: 9bf9f5500f5586891eca71908654fd881a5a031f
+SHA256: 9588c531b8daca94448ce6be9986b5ecae528788c7ee83067e3a73c4d813418b
 Priority: optional
 Description: This will install ROS Noetic.
 
