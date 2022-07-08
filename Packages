@@ -68,10 +68,10 @@ Version: 1.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-arm64.deb
-Size: 36570
-MD5sum: 9082fdea07d99ddee395c7b72dc84d62
-SHA1: 753bf71cd77a49ea5762014ee5b3d8d04e72fd70
-SHA256: 79bd1c2eaaf669e4bee6751643549e5ccd54ccf14491bd2c797575bf9b92e1e3
+Size: 36576
+MD5sum: 9a4611b193394214e440bcd8ed1dfe7e
+SHA1: 38c93338f9f31c5fe617ea88a50054741a2f5a3f
+SHA256: 3138191f1e61bc18a26bddf4bd1b8a2849f69772f406dc1ccadf37203128330e
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
