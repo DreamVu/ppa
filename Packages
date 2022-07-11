@@ -68,10 +68,10 @@ Version: 1.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-arm64.deb
-Size: 36576
-MD5sum: 9a4611b193394214e440bcd8ed1dfe7e
-SHA1: 38c93338f9f31c5fe617ea88a50054741a2f5a3f
-SHA256: 3138191f1e61bc18a26bddf4bd1b8a2849f69772f406dc1ccadf37203128330e
+Size: 36578
+MD5sum: 48d3eb96869a37df5986df4df796a51b
+SHA1: 0979a3dfe61f7415923fa166d10785af4e3c9971
+SHA256: 65093279d4b77e0807e47dc62954ca641d4c559a39ae0029286a12ef6d9da039
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -191,10 +191,10 @@ Version: 4.4.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./common/pal-mini/arm64/opencv-dvu.deb
-Size: 45645742
-MD5sum: ffc17593c84a7243599af1e583b99705
-SHA1: 108f76b7e7383341a49887ded031444fac2fd6a4
-SHA256: 0dea663a40a17da6ee65e74a1dbab6abdfc1e455b6ce5ca90d320b455747ead9
+Size: 1756
+MD5sum: 05dbdfaa245d511247e15b9512b5b4d2
+SHA1: 606499e7cc09e08eefd330f50e5d6d9ebc9e1549
+SHA256: 6ca63e97e5328d9a88f197555d3ef7f2f60c5a7f95f28833de545a0c68dc0120
 Priority: optional
 Description: This will install Open CV.
 
@@ -225,15 +225,15 @@ Priority: optional
 Description: This will install PAL Mini along with it's dependencies.
 
 Package: pal-usb
-Version: 3.6.1
+Version: 3.6.2
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Depends: opencv-4.4.0-dvu, libeigen3-dev, jetsongpio-dvu, data-pal-usb, engines-pal-usb (>= 1.1), miscellaneous-pal-usb, build-essential, git-lfs, python3.6-dev, python3.6-venv, libglew2.0, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, git, xorg, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev
+Depends: opencv-dvu, libeigen3-dev, jetsongpio-dvu, data-pal-usb, engines-pal-usb (>= 1.1), miscellaneous-pal-usb, build-essential, git-lfs, python3.6-dev, python3.6-venv, libglew2.0, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, git, xorg, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev
 Filename: ./pal-usb/pal-usb.deb
-Size: 2436
-MD5sum: 25aa87236f9494652f29387411ed4bbc
-SHA1: b48b70ff35b76127bc71325a0b5c0b426b793285
-SHA256: a63f4091e0cb75c0b76b41cfe085ad1b30b284bc46a2eae2ce936185ce6f4ba6
+Size: 2432
+MD5sum: a35f4b25281a16aea7d945ce9d60455c
+SHA1: 36378740c9663f6887d2bc77806276e911e205c5
+SHA256: 5af656a4d6a778079f7c558b33c477482f31b8b769780d7202eb9d8abfb9c835
 Priority: optional
 Description: This will install PAL USB along with it's dependencies.
 
