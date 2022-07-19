@@ -65,18 +65,6 @@ Description: This will install ROS Noetic.
 
 Package: engines-pal-mini
 Version: 1.0
-Architecture: arm64
-Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Filename: ./pal-mini/engines-pal-mini-arm64.deb
-Size: 36578
-MD5sum: 48d3eb96869a37df5986df4df796a51b
-SHA1: 0979a3dfe61f7415923fa166d10785af4e3c9971
-SHA256: 65093279d4b77e0807e47dc62954ca641d4c559a39ae0029286a12ef6d9da039
-Priority: optional
-Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
-
-Package: engines-pal-mini
-Version: 1.0
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-amd64.deb
@@ -84,6 +72,18 @@ Size: 1146
 MD5sum: 7cbf957d9be56c5bad4bf4761601e0fb
 SHA1: 3775e006d937993a572221f886de68575d8f2fad
 SHA256: 7dc82b3b3adcb59e4ea1eaa51c5c390ce14c67e4c95f86d04fdf4a6a37ef59ba
+Priority: optional
+Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
+
+Package: engines-pal-mini
+Version: 1.1
+Architecture: arm64
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Filename: ./pal-mini/engines-pal-mini-arm64.deb
+Size: 36580
+MD5sum: 1e80e7ab1712018ee8d659b822b1b307
+SHA1: afbc764645adad685b9baf36b0ec0ab65d3a2555
+SHA256: dc54d12bbab9c5df0cac151721bda996deca0cced0a74768937a8b257d42e8cc
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
