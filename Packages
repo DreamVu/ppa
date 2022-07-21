@@ -81,9 +81,9 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-arm64.deb
 Size: 36580
-MD5sum: 1e80e7ab1712018ee8d659b822b1b307
-SHA1: afbc764645adad685b9baf36b0ec0ab65d3a2555
-SHA256: dc54d12bbab9c5df0cac151721bda996deca0cced0a74768937a8b257d42e8cc
+MD5sum: 2c62e76e99e52563910448c4dd734e3d
+SHA1: c01942ac7b6cd325689b6d352fdb329a89580adc
+SHA256: 7276aca187535171b6a79f263765142c41454e390c33d3e41b51f6445c398ef7
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -142,10 +142,10 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-mini
 Filename: ./pal-mini/miscellaneous-pal-mini-arm64.deb
-Size: 42614
-MD5sum: 5818577d5d1fc59032a9f5f4ace97f01
-SHA1: 712708519b7aad4e1ccde60804e9ad5d2d82d5de
-SHA256: f8bee0be3d11160dba102f3f90c57326b386ebc2596f1d4e9a24629b99db033d
+Size: 42556
+MD5sum: 731cdddf6f5cfb48ef8a1af2bf77973a
+SHA1: 7d0bab53975ebdc423bb17deb7d32feb2e3adb6e
+SHA256: d897f28f7065b537a381810dd03df9c47a9e4da46641f873483f47b4e788380c
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
