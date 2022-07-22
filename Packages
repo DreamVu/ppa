@@ -129,10 +129,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-mini
 Filename: ./pal-mini/miscellaneous-pal-mini-amd64.deb
-Size: 43194
-MD5sum: a783f580a81d9276e57e4449b9999924
-SHA1: 5a73bffd7955a5048d0fc1ba14ad08fc3e35e0f9
-SHA256: d0ec4ab9b41327df1879c9841420e5a58a3ab19501bca397237587e6fb88b0fb
+Size: 83422
+MD5sum: 50b53ab35876323e6baf3695af2de10e
+SHA1: 26d57764e2b966d519b89631ceab6c1736c97306
+SHA256: f8f8e8aaf5550af844bbdf474c03a88a27d0191e4fb3039cf96b32abd2a3cd03
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
@@ -179,10 +179,10 @@ Version: 3.4.4
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./common/pal-mini/opencv-dvu.deb
-Size: 1086
-MD5sum: a2d51de857f581c3090451a03b8e34c2
-SHA1: 9bb9b2766b897cce523dbf614107b6b147a60451
-SHA256: 9825a96a54cb90802177c9a2dd708f8acb2776694133def8065c80654007dab8
+Size: 1130
+MD5sum: bfafba3fe9f167b99d3666f449f352a3
+SHA1: eeb649a7d87e5cf0a303b0bca9f18e84cfaa93cc
+SHA256: 1a4a934d0a705251dd6c6795dcc3e8b95188ee22941435ba8270460c8268ce13
 Priority: optional
 Description: This will install Open CV.
 
