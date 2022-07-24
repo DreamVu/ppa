@@ -56,10 +56,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/pal-mini/dreamvu-ros-melodic-navigation.deb
-Size: 17902
-MD5sum: d1d65a9554768dae794c742065496885
-SHA1: 623fd60b7b5eb576b4b725fce1657baffd285e21
-SHA256: f3e73601a4eb88a110e1ae297d9f658f641ed4bfcf5fefe7314acbd94f0bde74
+Size: 17896
+MD5sum: 7bb976370c6efa2336f50f363ecc3240
+SHA1: aa30c042dd59589bd98f2aec20ae29512e36886c
+SHA256: 9995c1fe226fb2d0d0c58c03e26dae7f71b8e4de8b940f022a8335f8a04c4981
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -69,10 +69,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./common/pal-mini/dreamvu-ros-noetic-navigation.deb
-Size: 17900
-MD5sum: 4fdbe31c252c67803c5eb55475b65728
-SHA1: e195d853b9b5fc3a431a8955364f44198d626da2
-SHA256: 57d66a8cfe8000a326cff2081ab9c2dd38ed19507a0e919b391a366b473645ee
+Size: 17896
+MD5sum: 6926846b15d8afe4f55b59aea688c8c1
+SHA1: 94b814e9d1f0814e8011a63f537f5626f6099269
+SHA256: e66cb8b20366a7585332845797c0c8160b7b74db994dac4fad9a53409b322e2f
 Priority: optional
 Description: This will install ROS Noetic.
 
