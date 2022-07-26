@@ -204,10 +204,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-melodic-navigation.deb
-Size: 18102
-MD5sum: 711af2d1f69443c2e121790015b8bbaf
-SHA1: 99d2bd509b542aca84d06eefa164ba6b5d9bce74
-SHA256: 08d93efff39352d9f8fdfc50d30484238b4aa587fb502327ec64bf76111c9507
+Size: 18092
+MD5sum: 36f3e6496ade28752a30bf3fd46c400c
+SHA1: 0fc4b1cda6322b9d4f6ce305da55327c9317f193
+SHA256: a651b2ddb712546b2b61ac8337c2709ad3821b6857be1ce517a375e63679eb72
 Priority: optional
 Description: This will install ROS Melodic.
 
