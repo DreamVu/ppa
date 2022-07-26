@@ -30,9 +30,9 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-amd64.deb
 Size: 18918
-MD5sum: 5eaa2cb164a02a120f8bc6f4b25155ce
-SHA1: 3e51a7cbc24cfb44cafe592911bd9fcf8bfd19d4
-SHA256: 65742c34c0c886c7e08808620395a7a8e12415292b514e6874958f4f7f842221
+MD5sum: e0bc71c7df115f41c154cf17da0465af
+SHA1: e58aaaf085477a23eac9e49dd544bb1826fce0e1
+SHA256: 54c06d9c5d6da0bcefef9af1723b71f7d1aba49e7b192432ee78dbefee470112
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -191,10 +191,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters
 Filename: ./common/pal-mini/pal-mini-foxy-navigation.deb
-Size: 1342
-MD5sum: d8631ec0bb01c353c89e85a63fed6272
-SHA1: 898746d6912c0ec188056f62b6fed47c9cef7246
-SHA256: 54f46f7e3ecad04d172ff97456f3b5a4514ba97f727d27f3c334f9f389fe4bb0
+Size: 1346
+MD5sum: 2fc1295b95189568407328cf459e0af1
+SHA1: 5b9738d22247976d2def24bc48166e09e53f4c98
+SHA256: 64f30fc8500b3867f1e36c0db2284eba35c12364be8af25578119e33c9ef2108
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -204,10 +204,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-melodic-navigation.deb
-Size: 17904
-MD5sum: cd3b7dbe75595022e413d7b3defdc74b
-SHA1: f4064664089630e3d92e852861c33e8d907cb85d
-SHA256: 3eb9d094e33420fd2c403a4b7d517eddb96699a4f142d6f28e84d482ffd556cd
+Size: 17906
+MD5sum: e2f571b8d13cf2bb65273ad114c70b10
+SHA1: 65ef85428dba5d3266f8937d1f47381d400181fa
+SHA256: 1f8b54d828259030cca0b4d2c73a7372417bab76a6f3f6363264749e33137ef6
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -217,10 +217,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-noetic-navigation.deb
-Size: 17906
-MD5sum: 117a8c1a7658bf56491b9ff4365f5025
-SHA1: db6419119d213b81a7cf0342cb9c99b2805d2ea3
-SHA256: b3e19800453360cfd0b2afffbed68ecaa190a6f544eb03a51f794b8f74cae99f
+Size: 17908
+MD5sum: 409cf1110e4c65d393696d4cd6ccf329
+SHA1: 31f8f04eb4c93d96e069d6a9b331f04d187a8701
+SHA256: 8bb4979992f939009ae3a46140cd09d4e2fdbc021183a86c3d28b03496ed74ea
 Priority: optional
 Description: This will install ROS Noetic.
 
