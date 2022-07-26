@@ -29,10 +29,10 @@ Version: 1.0
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-amd64.deb
-Size: 18918
-MD5sum: e0bc71c7df115f41c154cf17da0465af
-SHA1: e58aaaf085477a23eac9e49dd544bb1826fce0e1
-SHA256: 54c06d9c5d6da0bcefef9af1723b71f7d1aba49e7b192432ee78dbefee470112
+Size: 18916
+MD5sum: 15875d398e7c316d158d01e6d152f6ab
+SHA1: 66fec280ade051918a7d2bb6be2275ebacafba4e
+SHA256: 7edf2be815fb88bdf303598e6c9fe1a9f18dc2779d7c479a56778633d0cae7bb
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -165,10 +165,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal-mini, engines-pal-mini, lut-pal-mini, opencv-dvu, miscellaneous-pal-mini
 Filename: ./pal-mini/pal-mini-amd64.deb
-Size: 2196
-MD5sum: 7ea91b63d451575b7afa9c813596c490
-SHA1: c78078f95a7f4401364aa94621ef4e4d6f7a8fc1
-SHA256: 71150b17a256546122014bffa42ab9fac92a5e02459119da2f925bc61abb1879
+Size: 2240
+MD5sum: 029b6aca39cae9c3120f13a0ba9f1af6
+SHA1: 37590981f7de8dc05ffc04c2b2314959ed0b4f8c
+SHA256: 8a0b632e7d38a3cebb86b6e1e4e9ec6b1ae5c811d556a87019fd087d4fab000c
 Priority: optional
 Description: This will install PAL Mini along with it's dependencies.
 
@@ -192,9 +192,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters
 Filename: ./common/pal-mini/pal-mini-foxy-navigation.deb
 Size: 1346
-MD5sum: 2fc1295b95189568407328cf459e0af1
-SHA1: 5b9738d22247976d2def24bc48166e09e53f4c98
-SHA256: 64f30fc8500b3867f1e36c0db2284eba35c12364be8af25578119e33c9ef2108
+MD5sum: 2c913935865b0e0b6b4059e31a2ebd6a
+SHA1: 01bb86a9ef3537430e2a8ffa99f49c5f872a8c6f
+SHA256: 4d75cf20e13ec0f96548ffd0cde12d87493c954c15d37239f73e4704586fbc18
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -204,10 +204,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-melodic-navigation.deb
-Size: 17906
-MD5sum: e2f571b8d13cf2bb65273ad114c70b10
-SHA1: 65ef85428dba5d3266f8937d1f47381d400181fa
-SHA256: 1f8b54d828259030cca0b4d2c73a7372417bab76a6f3f6363264749e33137ef6
+Size: 17904
+MD5sum: bf4b929e9120643625aa420abae14d2e
+SHA1: 7c8ba29dde95bf55f41ca641c800f6de399080ca
+SHA256: ce7cb6e3807bcf4a295ba4573fe9241ed3911c079a42aa03bfa9d2b5f3bdb7d3
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -217,10 +217,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-noetic-navigation.deb
-Size: 17908
-MD5sum: 409cf1110e4c65d393696d4cd6ccf329
-SHA1: 31f8f04eb4c93d96e069d6a9b331f04d187a8701
-SHA256: 8bb4979992f939009ae3a46140cd09d4e2fdbc021183a86c3d28b03496ed74ea
+Size: 17906
+MD5sum: 48a14c71043d838369deb3273e9494ea
+SHA1: 0b81bc1e84d9a5f53bc4ebceb84144a5f7623f72
+SHA256: a5ba7c9f8da07d0aa2cb9cf44dd1881c9c445163c2e91fded2e65728dcc1f07c
 Priority: optional
 Description: This will install ROS Noetic.
 
