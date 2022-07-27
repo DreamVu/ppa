@@ -191,10 +191,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters
 Filename: ./common/pal-mini/pal-mini-foxy-navigation.deb
-Size: 15602
-MD5sum: 390dbac9c69174ff0482917e65e45595
-SHA1: 76ab2140352727f221d86188f7bf1a7d78b857b8
-SHA256: 91cbc140153f45c013e2e85d1c30d7ad313e78861d98efd02714b0c2c762c5d9
+Size: 15608
+MD5sum: bebd9811f660035f707e918ab2616025
+SHA1: f848c93bb4ffc7207d4ade281127f9d2559c01be
+SHA256: e9ac16235061d4f1e2202f71895e3e8bfc8ac680233835fe8cba81a9834e5f35
 Priority: optional
 Description: This will install ROS Foxy.
 
