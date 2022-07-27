@@ -29,10 +29,10 @@ Version: 1.0
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-amd64.deb
-Size: 18928
-MD5sum: 85731aa91133dee851e33df85b2f784f
-SHA1: b2a9e148dbde3a66bf7be74aaf05cf12a3eb17de
-SHA256: 8d14b83e0ea3de21c496281c3ebef1ace2d32855b57ed4c6f9e100c4551d5692
+Size: 19036
+MD5sum: 65f333c55ea63f5ebd4419af67f5a218
+SHA1: ad7926988a4439b022de5d645dc1ae4e4aca4b0b
+SHA256: 708c07fb897230a0e908a0b3fe36ebe1aca6cd770b2112a16793eadddfb65e4d
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -139,11 +139,12 @@ Package: opencv-dvu
 Version: 3.4.4
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Depends: build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev,libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++
 Filename: ./common/pal-mini/opencv-dvu.deb
-Size: 1130
-MD5sum: bfafba3fe9f167b99d3666f449f352a3
-SHA1: eeb649a7d87e5cf0a303b0bca9f18e84cfaa93cc
-SHA256: 1a4a934d0a705251dd6c6795dcc3e8b95188ee22941435ba8270460c8268ce13
+Size: 1272
+MD5sum: bc327ed5d82eac6bc5c1a5de7758f3b3
+SHA1: 7a28b92fa64389fd05eb7ffa60ab5c831bd9c312
+SHA256: e17f710d1fb26d6068402dd2563a9cb99cc8ecc772fafdb73f094a38a3b5991e
 Priority: optional
 Description: This will install Open CV.
 
@@ -151,11 +152,12 @@ Package: opencv-dvu
 Version: 4.4.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Depends: build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++
 Filename: ./common/pal-mini/arm64/opencv-dvu.deb
-Size: 1768
-MD5sum: 8e33b39c4231bff38a35309094946245
-SHA1: d7aee519c456fca6a3051ef5d1ac101e28d6d0a2
-SHA256: c543e210cc3961455bdd0e727f396e4085726c574dbfb3cbedb7bea32d18b3e4
+Size: 1890
+MD5sum: 29cdd87792e91854cc1080b8ddbe5a60
+SHA1: 969a33ba2110b82d2b78ebe5db98dac07dd4b839
+SHA256: 9c8a95487e5cf83c649ea69ce3d2a8d3af7db00243f19cdf0043521a9ae19732
 Priority: optional
 Description: This will install Open CV.
 
@@ -192,9 +194,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters
 Filename: ./common/pal-mini/pal-mini-foxy-navigation.deb
 Size: 15608
-MD5sum: bebd9811f660035f707e918ab2616025
-SHA1: f848c93bb4ffc7207d4ade281127f9d2559c01be
-SHA256: e9ac16235061d4f1e2202f71895e3e8bfc8ac680233835fe8cba81a9834e5f35
+MD5sum: 5e799bf720de59eeb3de759837777b9a
+SHA1: 2687c1cf62837a43896a0c52d67fa7f73cae0140
+SHA256: e51871c512b29ba3d8c09594329c24bc304fea60940734b5d17482526ec0286c
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -204,10 +206,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-melodic-navigation.deb
-Size: 18128
-MD5sum: 3e27645c082c1a3c37b711bba989c81c
-SHA1: f3e38b79180b564f090a366a69ac793727291129
-SHA256: 2bbbdb965ab47c513ff44eb3d2e79a1dcf2a05e99a7650945260e01dac023e38
+Size: 18130
+MD5sum: 3e8ea117ad404fe001dffa268dffb26c
+SHA1: 9db4c922bfc4c61eb8ed743eff59ab7df9ba703e
+SHA256: d5ab80db0234fa84accfdf7a46bfc70a67160015c947b35255573ff20f2c711b
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -218,9 +220,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-noetic-navigation.deb
 Size: 17966
-MD5sum: cc744abe579f3fece7f51938becdbcb7
-SHA1: a3138601a4dd6c1cb07ac34e0a2c939485dc8faa
-SHA256: 1dcb7a62ac6de2358d95df507dc37ec23084fe5bde5eaf3394652c94b25047a8
+MD5sum: 1d555de9521b7a6ce73a84e588740946
+SHA1: 4ebed09eb68a7613c498e075691eecc19d059974
+SHA256: 729b839107a835bf31132e9412a4caf45fd5061d69d5278d73fee91dfcb1239d
 Priority: optional
 Description: This will install ROS Noetic.
 
