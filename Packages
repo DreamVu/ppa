@@ -90,10 +90,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-mini
 Filename: ./pal-mini/miscellaneous-pal-mini-amd64.deb
-Size: 83452
-MD5sum: c90511cdbf8339b3e6f43a21e5b6069c
-SHA1: 33f0adb9745a1729d69d4f61eb6412da7684135f
-SHA256: df215425762592d9c5ef03c64a99709d2f4863f5d74f718c773f85f6fe5a5553
+Size: 83442
+MD5sum: f426ef357c34b2c7a93616c9608921ab
+SHA1: 794558316b332ea0ae612a8900a2f5f582db2c32
+SHA256: 9bd0633a3ca88c23219478109229b12156d5c212db9961a63d0e0cf167e524ac
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
