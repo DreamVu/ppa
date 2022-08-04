@@ -166,10 +166,10 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3.6-dev, python3.6-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy
 Filename: ./3d-object-detection-tracking/miscellaneous-3d-tracking-pal-mini.deb
-Size: 46318
-MD5sum: 0fc4a53540854f0fab27afb166006587
-SHA1: f348c8680798802a3b00b2e3f866a54d52d89ec3
-SHA256: 9ca7116b6d3ccf1a7b381bd23805c7166136390655a2f7f2bf3954e70c30e525
+Size: 46328
+MD5sum: 830e1995650dcf14a98017afd446875b
+SHA1: 223217bbe65c1f62f2b59beabf046f803ce3a173
+SHA256: cfc6ec698bae62f31f6589aa17fc0a1cd8fc6a77cf22a9f7550a3f7ad9e633b7
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for 3D Object Detection Tracking PAL USB.
 
@@ -179,10 +179,10 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3.6-dev, python3.6-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy
 Filename: ./3d-object-detection-tracking/miscellaneous-3d-tracking-pal-usb.deb
-Size: 46320
-MD5sum: 8c866f59ce4377b3ea425f8ca6957dd1
-SHA1: 0235801ddd722e57a1d10c444ec326af6420eded
-SHA256: c532511b2ba1c3bda3b88089c64c120a494b4c745d96c95c48fa182b900c8ca2
+Size: 46312
+MD5sum: 39114eab9d68d165c915a03baa007350
+SHA1: 6a098529980b25462ce83a1bc13485c6129b4898
+SHA256: 3ac0e671d8369a9caccd64e54e693f0401bca5d1d70f2bf764712aa4445df3e4
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for 3D Object Detection Tracking PAL USB.
 
