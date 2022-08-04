@@ -55,10 +55,10 @@ Version: 1.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./3d-object-detection-tracking/engines-3d-tracking.deb
-Size: 36360
-MD5sum: 341f8226125c204974deb9e4bebd3ace
-SHA1: 3d491ada19f2e01c1fe9bea88a9a2779b4466fb0
-SHA256: 15a79e7fc92c1d9f076d80fb8467d923a0ff13de50ead8cc430d856bb4e82ee7
+Size: 36344
+MD5sum: 0be67910fa1efa490e76f6320c57fda9
+SHA1: cc2e27fc4a51fd808d66ff10f89c14535aac905f
+SHA256: 93ac64f91216c0161aaa894e8d0cfc73a5ea1432829baa1ce35164bab8a31ca8
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$USER/DreamVu/buildEngine/.
 
