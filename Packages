@@ -5,9 +5,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: miscellaneous-3d-tracking, lut-3d-tracking, engines-3d-tracking, opencv-dvu, xorg, build-essential, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, libeigen3-dev, git-lfs, git, python3.6-dev, python3.6-venv, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, libglew-dev, libglew2.0, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev
 Filename: ./3d-object-detection-tracking/3d-object-detection-tracking-pal-usb.deb
 Size: 1718748
-MD5sum: 716fc66e2e83b36f3b2f6a607f39b8c8
-SHA1: 970cb00b7c5c071fa247b15682a738d8ef595e6e
-SHA256: e7b968c228f21bb698c5e3760a27fd4b575cd502b97508dbd989413fa21647b2
+MD5sum: 08f8350dd1f1d3491aa63459cb4978d6
+SHA1: c8a509eba636558be7dee7f9ced79f8623530707
+SHA256: 54b30dc2f26b4b075951b72dfae5188b206f8260576e486063237fa985c49b3f
 Priority: optional
 Description: This will install 3D Object Detection Tracking PAL USB along with it's dependencies.
 
@@ -31,9 +31,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./3d-object-detection-tracking/dreamvu-melodic-tracking.deb
 Size: 7916
-MD5sum: 3e25562e8d36b928a4ba95a65425b234
-SHA1: 87822bb3432be01360e48669309cc794264fa974
-SHA256: ebbcd9478328cd75dd178c5ab40ef1b1199b812fb3114495f880c43f1fe11b2e
+MD5sum: c129d33644fb96a7d24f75e7015d2aec
+SHA1: d426d57eb21f4002c9ad7ed882484930bc924470
+SHA256: 575dc6251a4ebd20b0f050f1e6e514529ce222d1e5738a201a4684bd5708bd96
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -56,9 +56,9 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./3d-object-detection-tracking/engines-3d-tracking.deb
 Size: 36360
-MD5sum: 24b16cbfb35da9b42943374eb67236c7
-SHA1: 90e5c9537b02cd2dd6d36115ce61a31bec1d8d76
-SHA256: cb6234e4fc087c65fa7ef6c0ed1f57e19d9c6acf3bb2d17747c3e16ddc5cc997
+MD5sum: 341f8226125c204974deb9e4bebd3ace
+SHA1: 3d491ada19f2e01c1fe9bea88a9a2779b4466fb0
+SHA256: 15a79e7fc92c1d9f076d80fb8467d923a0ff13de50ead8cc430d856bb4e82ee7
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$USER/DreamVu/buildEngine/.
 
@@ -116,9 +116,9 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./3d-object-detection-tracking/lut-3d-tracking.deb
 Size: 25945570
-MD5sum: 3b0e20906b32659155fac0ada818a458
-SHA1: 77d6f7afd61d81ac329f36e39e62ff2ca7350ad6
-SHA256: 06b8faf6fdee2be25f1a781f9ce504b72cc50a7581e8049f5e5881553aceddea
+MD5sum: 6bbfa7bd41b8d64f2d3f26e4d9424a85
+SHA1: 512c51a2c8c3c244e996d5d058de495c79be194f
+SHA256: abc160030ae8d4d12b1d4337e8ce8dc2bfb10842c89f5fd6c80146b077f76b26
 Priority: optional
 Description: This will copy lut files for 3D Object Detection Tracking PAL USB.
 
@@ -141,9 +141,9 @@ Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3.6-dev, python3.6-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy
 Filename: ./3d-object-detection-tracking/miscellaneous-3d-tracking.deb
 Size: 46346
-MD5sum: 3a15f66cb2b20316030355ca42288ff0
-SHA1: 0392f2b94d85debd007c38feb7f74915d900be8e
-SHA256: b0278b1ead05560c4f8bf65173f5c3cc387d81a905748da5e498c35a78c7ee4a
+MD5sum: 1e6f3ed1061cec702d005a3a4f4a7b22
+SHA1: f5081c474678f824a9f589724e97791024aa3065
+SHA256: 3e7315d02e3da53ff08e2b1c766f944964099d1a3b1a075b2b7cd217b7879e33
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for 3D Object Detection Tracking PAL USB.
 
