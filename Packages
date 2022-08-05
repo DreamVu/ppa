@@ -55,10 +55,10 @@ Version: 1.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./3d-object-detection-tracking/engines-3d-tracking.deb
-Size: 36200
-MD5sum: 844ef0c0a2aa84431d37936adf37cb60
-SHA1: 6ab5a89e87941fef8a919831066c2d17a35b39d3
-SHA256: ff0db291a96cc97c3ccb8a544e316909dc28096b57c70b5982b2f8967b6ffe09
+Size: 36206
+MD5sum: a1a123a42429cb909bf75fc4879e6319
+SHA1: af1c1fc2396e263e3bb8acb5c66407df27a51bd8
+SHA256: 0e32f0c3a2f3ffacf5fbe4b2272d46293ed5aee04c9f40cb45d86e2a5a6fef93
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$USER/DreamVu/buildEngine/.
 
@@ -79,10 +79,10 @@ Version: 1.1
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-arm64.deb
-Size: 36596
-MD5sum: 3cef3fa27c2075852a9666d21880c853
-SHA1: f4f3ac1778dedc2d5edf7dc32d9ca8b329d0f331
-SHA256: fdf11e947144bdbe46bef659b073e03cc315ca12a34f7a2ec4af81548a081062
+Size: 36600
+MD5sum: e2cbb3a97602a7cef7b291cce112ac7b
+SHA1: b231d9243091967fe7f38a08b8d4120cccdea1f1
+SHA256: 7c7cf0aee6b865d12b8c61bc31b4835e0e90f84b96018e992af8fa101cdf9ba8
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -91,10 +91,10 @@ Version: 1.1
 Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-usb/engines-pal-usb.deb
-Size: 36488
-MD5sum: a75d6fb962ace86a67b89b5267429393
-SHA1: 955953c90ad229f09c0cf9e015e013ee701c3c57
-SHA256: bbdd525272c7cb5ae47f48da316fe5ff19045e895025822d208b1639969003fb
+Size: 36500
+MD5sum: 08a654f08b01b9d0f8211df194dd8bcc
+SHA1: 6e90e833b4dad32a2bd2c6097b6838d2d84b5af2
+SHA256: 9f64b4b6339df334e13fd8abc2de31078e4f122f1cc72c14b2ae7ab929f1db33
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$USER/DreamVu/buildEngine/.
 
@@ -282,10 +282,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-melodic-navigation.deb
-Size: 18130
-MD5sum: 3e8ea117ad404fe001dffa268dffb26c
-SHA1: 9db4c922bfc4c61eb8ed743eff59ab7df9ba703e
-SHA256: d5ab80db0234fa84accfdf7a46bfc70a67160015c947b35255573ff20f2c711b
+Size: 18170
+MD5sum: 63a9bbcd7c069419c7612c10f2e227f0
+SHA1: 1e725301ad1c7d8f30abf2c673e24a9813a4dd80
+SHA256: dc77986a4e565f37935a715f0dce07fb38a3341bbfed86821227722f59c87dab
 Priority: optional
 Description: This will install ROS Melodic.
 
