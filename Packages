@@ -37,19 +37,6 @@ SHA256: 68acd5a1d9f056669893d715f45b9f6383b4d7ab90dd83b202e5fb4b0690b09e
 Priority: optional
 Description: This will copy the lut files, json files and logger.o.
 
-Package: dreamvu-melodic-tracking
-Version: 1.0
-Architecture: all
-Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
-Filename: ./3d-object-detection-tracking/dreamvu-melodic-tracking.deb
-Size: 7878
-MD5sum: 59aa3fd484823bd41dd474e2af379537
-SHA1: 067c51c839aa1f560c5bba700fe1c4fd995fde1c
-SHA256: e6949e2f866bdb2687d500736459a29886322ffca1248ffdf18d6dc8ce7923cd
-Priority: optional
-Description: This will install ROS Melodic.
-
 Package: dreamvu-ros
 Version: 1.0
 Architecture: arm64
@@ -302,6 +289,19 @@ SHA256: d5ab80db0234fa84accfdf7a46bfc70a67160015c947b35255573ff20f2c711b
 Priority: optional
 Description: This will install ROS Melodic.
 
+Package: pal-mini-melodic-tracking
+Version: 1.0
+Architecture: all
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
+Filename: ./3d-object-detection-tracking/pal-mini-melodic-tracking.deb
+Size: 7886
+MD5sum: f0d3fc542e7f49f82935bce3cfffe529
+SHA1: 79084cc3f0d6ceb43276ca0bd1d4058cf94e70eb
+SHA256: fc4610de1b437a8b6f78dc4bf69ba75c3034bd266991f168ed03ac11d418ffeb
+Priority: optional
+Description: This will install ROS Melodic.
+
 Package: pal-mini-noetic-navigation
 Version: 1.1
 Architecture: all
@@ -327,6 +327,19 @@ SHA1: c5eee898a497284ad69b8e8538808d8230b250c0
 SHA256: c5377bc23e5eb293d41a9c4355ba2535ef9dbddfe106b2cc864887ef8dd4470b
 Priority: optional
 Description: This will install PAL USB along with it's dependencies.
+
+Package: pal-usb-melodic-tracking
+Version: 1.0
+Architecture: all
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
+Filename: ./3d-object-detection-tracking/pal-usb-melodic-tracking.deb
+Size: 7884
+MD5sum: d95c860446426bf30da9700a8fc261f0
+SHA1: 6f0c1f130597721f45aa508a789b3ff39e91bfd0
+SHA256: 4516966d607570119e333ca753f4fea224e6cee0760ce9c7d6156f4a9a9a92b5
+Priority: optional
+Description: This will install ROS Melodic.
 
 Package: ppa-pal-mini
 Version: 1.0.0
