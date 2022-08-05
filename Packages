@@ -98,6 +98,18 @@ SHA256: 06ba96a39faa63a5a942bf61c195b9943f85160d028b4486c93ed13789bd28ef
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$USER/DreamVu/buildEngine/.
 
+Package: hello
+Version: 1.0
+Architecture: all
+Maintainer: Debashish Roy <debashish.roy1998@gmail.com>
+Filename: ./common/test.deb
+Size: 4896448
+MD5sum: d12290e120718a681ffd010d522169d0
+SHA1: 6538abccce5b502383bc9ef3b80bf343ec926618
+SHA256: 121b4d4bd4af82f4b905db1557d2e780f4166ed87b2de012f428d786e5840e79
+Priority: optional
+Description: This is a demo package.
+
 Package: jetsongpio-dvu
 Version: 1.0
 Architecture: all
