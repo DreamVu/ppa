@@ -80,9 +80,9 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-arm64.deb
 Size: 36600
-MD5sum: e2cbb3a97602a7cef7b291cce112ac7b
-SHA1: b231d9243091967fe7f38a08b8d4120cccdea1f1
-SHA256: 7c7cf0aee6b865d12b8c61bc31b4835e0e90f84b96018e992af8fa101cdf9ba8
+MD5sum: bbfa100db95e5af799c5b6ed22796996
+SHA1: 35d524a88084e69807ae41c5d2e979e64a27cadb
+SHA256: 1a4fd24dd7a6353a866f7d1007c1ab4657c9cca329389869c05dcd6abc2fc109
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -91,10 +91,10 @@ Version: 1.1
 Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-usb/engines-pal-usb.deb
-Size: 36500
-MD5sum: 08a654f08b01b9d0f8211df194dd8bcc
-SHA1: 6e90e833b4dad32a2bd2c6097b6838d2d84b5af2
-SHA256: 9f64b4b6339df334e13fd8abc2de31078e4f122f1cc72c14b2ae7ab929f1db33
+Size: 36498
+MD5sum: 60fe8364bedb81ca9b072900e6b92a24
+SHA1: e328378f39607d759cba83806dfe93fbb2c5c0e3
+SHA256: 6ac50466ac8f0c35cc2dca9939b7338dc39052dd89da0debaa6233b2fb1b3130
 Priority: optional
 Description: This will copy the build engine script and generate files to /home/$USER/DreamVu/buildEngine/.
 
