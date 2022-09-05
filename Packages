@@ -67,10 +67,10 @@ Version: 1.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-arm64.deb
-Size: 31696
-MD5sum: b1114b911105ef62fec52489acb655fe
-SHA1: ffacd48bab38d5f1e8d2ade24dd9946a0ddbdc7f
-SHA256: 0a085d119dab082f0889cf22c0f4930701cd156cb6899c4607a1c7455e9fe247
+Size: 31692
+MD5sum: 6c35289b143298347fcccb85dd22b03d
+SHA1: e58002471162328421189a48249c28f625c1d364
+SHA256: 535655101e8c8aec2b3a125192f1f3b4e02d8fed4ee7cd7a3ae1695b9aedc4d8
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
