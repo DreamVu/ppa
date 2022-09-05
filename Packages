@@ -67,10 +67,10 @@ Version: 1.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-arm64.deb
-Size: 31684
-MD5sum: ecd9f1c0e5fd1660de114839139e5649
-SHA1: 7232c25b9f7aa11752db65d430e7becc1568d69c
-SHA256: 7673d9b4772a9cc9cd200d19a0df90eefc05203b6fd18a8d6030833134701f64
+Size: 31696
+MD5sum: b1114b911105ef62fec52489acb655fe
+SHA1: ffacd48bab38d5f1e8d2ade24dd9946a0ddbdc7f
+SHA256: 0a085d119dab082f0889cf22c0f4930701cd156cb6899c4607a1c7455e9fe247
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -190,10 +190,10 @@ Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-arm64.deb
-Size: 46332
-MD5sum: 82511e3887b37157b4383bd4a05ab758
-SHA1: 870a15f137f0125124df6a8ab3c1fa6804203561
-SHA256: 546af722b2f6f060a2ad6c173c9f3da3381a015b01f2b503a3c94e4e15798f6e
+Size: 46160
+MD5sum: 10829cf6007c32a75cf502e133ac8d50
+SHA1: 02deed0086c2240c374815c647eae5f292f30459
+SHA256: 932c33de54828865575d81aca161fd977d96c041d5e5ed1f9311d1974e25f95d
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
