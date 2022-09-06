@@ -74,6 +74,18 @@ SHA256: dbc77f661d039b9331d0fbd59ff7dd813a3871e94d1a8a31205869564c4e01e6
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
+Package: engines-pal
+Version: 1.0
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Filename: ./pal/engines-pal-amd64.deb
+Size: 16172
+MD5sum: 8529e8458d3cef370a9e93980e96f668
+SHA1: 33e96555483f026ae7ac580986821a63ec490f6e
+SHA256: 7d743a8100b392aabbf2bb79257450b6f1931e29068b5f8e941e2dd2048f89d3
+Priority: optional
+Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
+
 Package: engines-pal-mini
 Version: 1.0
 Architecture: amd64
@@ -198,6 +210,19 @@ Description: This will install dependecy activation and create python virtual en
 
 Package: miscellaneous-pal
 Version: 1.0.0
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
+Filename: ./pal/miscellaneous-pal-amd64.deb
+Size: 89524
+MD5sum: 5bc1d54b0b0d21953cd4281f96dfed12
+SHA1: 42250bb25220a7e00c8251197609d0aaf541dc5f
+SHA256: a92f38abec784006969173934e7861ded68ed31a0ddcb260e42d4d7a86b74545
+Priority: optional
+Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
+
+Package: miscellaneous-pal
+Version: 1.0.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
@@ -296,6 +321,19 @@ Size: 2280
 MD5sum: 9bc3855816cf678a41018b6cf1a2efef
 SHA1: c6d257847fd50b3e3df39bf8749d5ed3d1f83165
 SHA256: b290b1c01ab39cde7a18007d68e242ba3d4e4307ed432609d94a083b41aa2dfe
+Priority: optional
+Description: This will install PAL along with it's dependencies.
+
+Package: pal
+Version: 4.1
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal, engines-pal, lut-pal, opencv-dvu, miscellaneous-pal
+Filename: ./pal/pal-amd64.deb
+Size: 2440
+MD5sum: b19f286305a88303ae7473101eaff807
+SHA1: 3c91c4982e87622818509dc81ff4d01900a19553
+SHA256: 7f17ae03490f50da41942cdab40a11ad4bd9bb9ec99e11c1afe5e345dd640f42
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
@@ -451,6 +489,19 @@ Size: 1028
 MD5sum: 543a19e16bd42bf1c4089533e9c9786b
 SHA1: e18ca958dbb823ab883685643ca9fab5e78beb3b
 SHA256: 8c0cca166a4266459dc41977821f5c36fbfdc07279f954423807c2d06476a824
+Priority: optional
+Description: This will setup PPA for PAL dependency and also install CMake.
+
+Package: ppa-pal
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: curl
+Filename: ./pal/ppa-pal-amd64.deb
+Size: 1216
+MD5sum: e36f53d0d59b0d0803761118e425f4c0
+SHA1: 113ee75d74fc1f00edd8262e08258e600e90d65a
+SHA256: a86a39b13f0d254f11fcb72ff7f79288931e81f545b228ce52cb70cd05255e3f
 Priority: optional
 Description: This will setup PPA for PAL dependency and also install CMake.
 
