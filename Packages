@@ -356,10 +356,10 @@ Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./pal/pal-melodic-navigation.deb
-Size: 18844
-MD5sum: b932a998cebc2ff4f3dc93053a4e0e43
-SHA1: 363d4769bdb4e9f0841d3e9f2a40db4b3707e55e
-SHA256: 12aae56a76cbf19b849e0fbd984802051ca6adad8c2ec6ad37a18d2898eaeaf8
+Size: 19824
+MD5sum: aeba482ce0ce60dc0b8aeb418ed90633
+SHA1: 8d72a804536ba5c2d7219b8ab15ee21daf0b7a89
+SHA256: 9d2ebde5f2e1a9ddd52d20c13c97a976ee8e456978bf4d70f83959e90576d000
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -447,10 +447,10 @@ Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./pal/pal-noetic-navigation.deb
-Size: 18768
-MD5sum: 24aa011a328da895f63b4e81bc664951
-SHA1: 1f9827eb8ce06b659557b1e20b46a4057385fa9a
-SHA256: de233a692228924228cc32ba53a231cfa9a09c10f95d81755e045bda7ace90c7
+Size: 19736
+MD5sum: 2e7194380baec6fadff625037155e134
+SHA1: e6d9625b41a70c959a612de753b2271c869d9d73
+SHA256: dc3f461ded02b73d3dcbdfaeb3f4c072144fd16a46bca3fd3375202563826a71
 Priority: optional
 Description: This will install ROS Noetic.
 
