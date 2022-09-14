@@ -214,10 +214,10 @@ Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-amd64.deb
-Size: 94152
-MD5sum: 518d66ac64dc7a4656ceae101983ef29
-SHA1: 0c19bd2ec5eb1638f1a6bc9234ba645218a4caab
-SHA256: 76f30917f0ade1063d96233dc10ea5dac3075a598a235e58d387f36e351e5732
+Size: 94160
+MD5sum: aea296c69193dde651b5f9cbda8645ab
+SHA1: 8c17ba89c01c9c18fa98ce8d36e8817e0f747f1d
+SHA256: 70d764809a915daa08bcf86f078a1f6951b8cce094b9e95746dce4cb06abebd7
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
@@ -227,10 +227,10 @@ Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-arm64.deb
-Size: 46116
-MD5sum: 95f1359d82d1eb53bf0eaed95832356f
-SHA1: 2130682406509dc95c0635ce54418953e37852ad
-SHA256: 28d97ef8b30766bafadd4b53202f9c8ad235b450f5103f4eebfca0dbe465b488
+Size: 46128
+MD5sum: f284b986a42ee9f516d3a37b2b62eab2
+SHA1: 73821f0073a63cf0a6e0dbf2c4e1da1af5a6c0f5
+SHA256: 79aba13c9c8b240ffa83d8ce95e0ffe4b7dc57f3626bce9d46e73864f81d5df9
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
