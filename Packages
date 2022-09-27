@@ -150,23 +150,23 @@ Package: lut-pal
 Version: 1.0.0
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Filename: ./pal/pal-lut-package.deb
-Size: 972
-MD5sum: b99c2230176c0dc8588314857fa386e9
-SHA1: 2f5f0f20c524158afc62964e26983be878d29710
-SHA256: a1e57980d0d0b80194fce766291e5fa5bc6af709c512946f8a810cc56267e806
-Priority: optional
-Description: This will copy the lut files to the root directory.
-
-Package: lut-pal
-Version: 1.0.0
-Architecture: all
-Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/lut-package.deb
 Size: 972
 MD5sum: 61a8470bd1c04cd39d9a5d2f33bcef52
 SHA1: 6a27a2c8353bba4ee94dc80443d6c443b04b1c65
 SHA256: 78e987819731efe6b7bda0e97feb17357520411905879ff7b8662972d1aa068d
+Priority: optional
+Description: This will copy the lut files to the root directory.
+
+Package: lut-pal
+Version: 1.1.0
+Architecture: all
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Filename: ./pal/pal-lut-package.deb
+Size: 972
+MD5sum: 4770e24847d625b3ba20256fdeb890b4
+SHA1: f8bc14c574997b5a788d59016914485a18d472a2
+SHA256: 182f3f888109d743c28b08fe5e2bd39b04cdb2eb8a37b48e1daa3aea21b77b27
 Priority: optional
 Description: This will copy the lut files to the root directory.
 
