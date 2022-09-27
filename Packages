@@ -351,15 +351,15 @@ Priority: optional
 Description: This will install ROS Foxy.
 
 Package: pal-melodic-navigation
-Version: 1.1
+Version: 1.2
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./pal/pal-melodic-navigation.deb
-Size: 19872
-MD5sum: fe5c6bc9006fb69c6e10188e38ddc203
-SHA1: aec16efee79fd3e34b5b42facf86eade69c1d986
-SHA256: 11b419c9cc922e88a6b5ef1b09992195a0eec7396415ba9d761e5fc5687920f0
+Size: 19868
+MD5sum: 46b66fb420c023cb606b3af911ccb862
+SHA1: b71795bb55ea20770356aa33b279198af323a649
+SHA256: a40cb842b6118e1745dddd856d9b84e43deb9e6f686c296bb1b83e9919afd8e4
 Priority: optional
 Description: This will install ROS Melodic.
 
