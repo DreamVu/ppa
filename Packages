@@ -91,10 +91,10 @@ Version: 1.0
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-amd64.deb
-Size: 16196
-MD5sum: e93854ff9c60136d98cce22e253bead7
-SHA1: c253e60b0ccd710ab29218b1c4c7abe7b42dc934
-SHA256: 6a367d8b77f597306c10e6b807ede4c49d4160b5100a63306b91a2658687c1e8
+Size: 16248
+MD5sum: 701891c737c5c364404843fc2a68892a
+SHA1: 0ad6d82887bda312e2012ffd9b930901d6161d21
+SHA256: 0fe7df28b477d9024abb25c8e50f42a9e88800aec1973c149cd9e5515dde442b
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
