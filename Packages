@@ -91,10 +91,10 @@ Version: 1.0
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-amd64.deb
-Size: 19036
-MD5sum: 65f333c55ea63f5ebd4419af67f5a218
-SHA1: ad7926988a4439b022de5d645dc1ae4e4aca4b0b
-SHA256: 708c07fb897230a0e908a0b3fe36ebe1aca6cd770b2112a16793eadddfb65e4d
+Size: 16188
+MD5sum: 044e2ffdb3ef835b2d2b7e2d833116e8
+SHA1: 85645aea3774a008bd4e40f3451cd2580cbb3db0
+SHA256: 15d7a9849dd8ddec71c9e9aee2ab4cb6b90cd9c772815cab27cb744c74d64c6f
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -103,10 +103,10 @@ Version: 1.1
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/engines-pal-mini-arm64.deb
-Size: 36600
-MD5sum: bbfa100db95e5af799c5b6ed22796996
-SHA1: 35d524a88084e69807ae41c5d2e979e64a27cadb
-SHA256: 1a4fd24dd7a6353a866f7d1007c1ab4657c9cca329389869c05dcd6abc2fc109
+Size: 31844
+MD5sum: b41ed9bee45436ac7d12d3bba152fbb9
+SHA1: 268cbf49a01514b2a40a4005b542b30a0fd3e871
+SHA256: 54050385a430e70160f54b090bce6b4afa2dccf9ff9d1e87c7f5c2e32ce033f1
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -175,10 +175,10 @@ Version: 1.0.0
 Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./common/pal-mini/lut-package.deb
-Size: 736
-MD5sum: 8b46a5e8b0db47205621f71056793a9d
-SHA1: bd19d985fb50252cbcf09779062f3ab975408db8
-SHA256: e09cab2c30fa36bf9094f4d2a46b271f1f3ae35ae04e8e8e6eea297391b81efe
+Size: 972
+MD5sum: b2dd4752ac6cf335d92395aee2111693
+SHA1: 33ec98d645523a9ab1b7e42b8af7425b9aeaae97
+SHA256: e736452fe60ae0f77cd30c256bf76ba66ddb38b1dd98f01598842dce4c49a132
 Priority: optional
 Description: This will copy the lut files to the root directory.
 
@@ -240,10 +240,10 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-mini
 Filename: ./pal-mini/miscellaneous-pal-mini-arm64.deb
-Size: 42780
-MD5sum: 97f5b5942ca25ac3537c5206f92c8c94
-SHA1: 05adb94dea0463788eb53763ea292e1b8db14a96
-SHA256: 08bd37b70089f2a9ac05756ab9b02d930c033d2f8faa2b3fb8ea75128fb990fb
+Size: 42920
+MD5sum: ec013ba98199df0a63bdfb29a3239a15
+SHA1: b93df9432fc0ada766d2e045870892cc5cb19007
+SHA256: e967b23cf08390972b287c150f50e002b9d38fd781c43fcd82d728c6b402ef28
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
@@ -253,10 +253,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-mini
 Filename: ./pal-mini/miscellaneous-pal-mini-amd64.deb
-Size: 83452
-MD5sum: 000c0691da8c712d7aa05b72d06a1df6
-SHA1: ebb98c4d89e654a3bd88a858ed979030b638ff96
-SHA256: 1f0362738f0a14893f675231f2d4e5273ad3f9049945135cf700524745500281
+Size: 117492
+MD5sum: 4a0337d5024a82f9ff40681b633e385f
+SHA1: c7c28f27c1dc6fd507b5e0ccfd2938db86c010ae
+SHA256: d97e6b8825428a38f933021ac545a06d00c8736e743b01b4d48c05f0a54edea7
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
@@ -364,28 +364,28 @@ Priority: optional
 Description: This will install ROS Melodic.
 
 Package: pal-mini
-Version: 4.2
+Version: 4.2.1
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: git-lfs, git, xorg, build-essential, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, python3.6-dev, python3.6-venv, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, libglew-dev, libglew2.0, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, lut-pal-mini, engines-pal-mini, miscellaneous-pal-mini, opencv-dvu
 Filename: ./pal-mini/pal-mini-arm64.deb
-Size: 2288
-MD5sum: d9ae218b7d3feabe7da57e3511276161
-SHA1: 3533794cf202770cd081d7eb2df27254a965b252
-SHA256: 182f0617d5ee75829a64cf157b8383425e350b112d037c44cb7f1397a3e19327
+Size: 2296
+MD5sum: 22401345832bffad9abc104af9de325a
+SHA1: da2b9775e42150793cce4a096e251f73c13adfd5
+SHA256: e35d9d4f7add6ad913ce480552a07b9daf7ea6126a114440a2f2225a8ed8927a
 Priority: optional
 Description: This will install PAL Mini along with it's dependencies.
 
 Package: pal-mini
-Version: 4.2
+Version: 4.2.1
 Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal-mini, engines-pal-mini, lut-pal-mini, opencv-dvu, miscellaneous-pal-mini
 Filename: ./pal-mini/pal-mini-amd64.deb
-Size: 2456
-MD5sum: 06569be6bde80c59d5dccabb08dd3cc3
-SHA1: cdf21fb2bd633adeb234cbac8d8c400b994daa3f
-SHA256: ab5ce72638db85d26cef29c058472b350225c9cfc3d77d043ea259ca70362f85
+Size: 2448
+MD5sum: 586c68c3be2762654d8c276a762623d4
+SHA1: cacac0f45312a86f01636c8a8ab9de07c401a917
+SHA256: 266a074e0b28bed07136974dc2702409c62a9d2a7d0a341ae8a2e5d8a15a188d
 Priority: optional
 Description: This will install PAL Mini along with it's dependencies.
 
@@ -395,10 +395,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters
 Filename: ./common/pal-mini/pal-mini-foxy-navigation.deb
-Size: 12064
-MD5sum: ae7c5063c73d5fb8c93d94baccfeefbb
-SHA1: 62c7253f8c83cbd0a5d49f0eac8100399441f006
-SHA256: 1450751b29a450a7119a00d52b073bd9032e271ebee6d998f0ed7fb2ea5b8e09
+Size: 12232
+MD5sum: 0064f5c36f9e64e4e70f0b60305bee3f
+SHA1: bc9eeb4ec82092ca3bda06e137f8b9cd29c9a36a
+SHA256: fb97f172d9155d17f0be06d2840ee6666f535b420aaf55956ec063326e416c50
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -408,10 +408,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-melodic-navigation.deb
-Size: 18170
-MD5sum: 63a9bbcd7c069419c7612c10f2e227f0
-SHA1: 1e725301ad1c7d8f30abf2c673e24a9813a4dd80
-SHA256: dc77986a4e565f37935a715f0dce07fb38a3341bbfed86821227722f59c87dab
+Size: 19784
+MD5sum: dc82ab3a920ba1ca37945e5a863c75f3
+SHA1: b176a500c12dce75f6205bd1d90e9d4c119efdb6
+SHA256: 67070662dd84ce63e8aaff04edcaa2ae9e70e1afc29d143c37233d6ac7a5fb06
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -434,10 +434,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./common/pal-mini/pal-mini-noetic-navigation.deb
-Size: 17966
-MD5sum: 1d555de9521b7a6ce73a84e588740946
-SHA1: 4ebed09eb68a7613c498e075691eecc19d059974
-SHA256: 729b839107a835bf31132e9412a4caf45fd5061d69d5278d73fee91dfcb1239d
+Size: 19580
+MD5sum: a13df55ecf57390a559d3346d5eb8cb9
+SHA1: 165c16204644aa8916decd91acab4d1f87849be5
+SHA256: 8053122fec972266cbd6613090cba9431a4339185d6ec8c0e769f27ab2abebbb
 Priority: optional
 Description: This will install ROS Noetic.
 
@@ -510,10 +510,10 @@ Version: 1.0.0
 Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Filename: ./pal-mini/ppa-pal-mini-arm64.deb
-Size: 840
-MD5sum: 32fdb754cce790ba07dd0f8a376b2fbe
-SHA1: ca811aa2ef1433b97a86e192100804e732a1bade
-SHA256: 7e5de92c5390efcc2a3f885295b659e069f43093961441087ffae21c7f066530
+Size: 1032
+MD5sum: 6e966eee1f821291e685d764de940979
+SHA1: 1a64e2b8646e4e6db1cea7fa593349f9ba9ef48b
+SHA256: af24cc1e59988a68979c0928797a64d4fdc36093061d509ee37f98cd32dcf7d4
 Priority: optional
 Description: This will setup PPA for PAL-Mini dependency and also install CMake.
 
@@ -523,10 +523,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: curl
 Filename: ./pal-mini/ppa-pal-mini-amd64.deb
-Size: 1030
-MD5sum: 7db786510074bb27574d6b2ad5ca5baa
-SHA1: e4d08ee64d8e5f9837486b9cb59b3e22abe960cb
-SHA256: 9efe4c7cec12c53803adc65f67ab0a8ddf6f55c48a492567c8ecd641b8fb79eb
+Size: 1224
+MD5sum: 7778d569568e8ca9b75fbc4d57733d17
+SHA1: ada06c907746819e8dc448e9ec211d19248b08ba
+SHA256: c2c068caf107e8d60f529bad3200f81efcfb2d7f51ad858815836c5242c49eed
 Priority: optional
 Description: This will setup PPA for PAL-Mini dependency and also install CMake.
 
