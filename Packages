@@ -498,10 +498,10 @@ Version: 1.0.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/ppa-pal-arm64.deb
-Size: 1028
-MD5sum: 543a19e16bd42bf1c4089533e9c9786b
-SHA1: e18ca958dbb823ab883685643ca9fab5e78beb3b
-SHA256: 8c0cca166a4266459dc41977821f5c36fbfdc07279f954423807c2d06476a824
+Size: 1168
+MD5sum: cdc0f044bcb7a820a5407dc6afad6c45
+SHA1: 40c203a8ae498fb469c9a27fb062f58f6fa95e8d
+SHA256: a1c9fd39ff88f044b34406159cd685bf5607677b19edad16694f4987972f2d80
 Priority: optional
 Description: This will setup PPA for PAL dependency and also install CMake.
 
