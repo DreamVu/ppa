@@ -330,10 +330,10 @@ Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: git-lfs, git, xorg, build-essential, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, python3-dev, python3-venv, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, libglew-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, lut-pal, engines-pal, miscellaneous-pal, opencv-dvu
 Filename: ./pal/pal-arm64.deb
-Size: 2464
-MD5sum: 15cedad3466705a611ff4731790cdf1b
-SHA1: 8df9ad63834b62c6423c4624b6614fb70708d67a
-SHA256: 01341f55246ba728d0d63f16b3df9d1f3715a5062e2393e0564cdf3bf73a65aa
+Size: 2480
+MD5sum: 30e060d2b290950c21d088b62953c331
+SHA1: 0f6e981a5976d0008583f6f85686dbad7c3ead91
+SHA256: d04b98ab779961bbaa3ac7bc4d40fd83bc9e8225df831f29da2f282251ab913d
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
