@@ -110,6 +110,18 @@ SHA256: 5bd48a37b1457a561c991373123c81da7329c9a6e9f7de60b6ea6c089e637620
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
+Package: engines-pal-temp
+Version: 1.0
+Architecture: arm64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Filename: ./pal/engines-pal-temp-arm64.deb
+Size: 32364
+MD5sum: 03fb026531a121bc646593025474d890
+SHA1: b1c8c43a8b6da9caf5b9ff2e57ecdd0d4f50d650
+SHA256: 411b78d60c09b32b35b9763a2ed0729db4d70589d1365d437ebb5304427029eb
+Priority: optional
+Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
+
 Package: engines-pal-usb
 Version: 1.1
 Architecture: all
