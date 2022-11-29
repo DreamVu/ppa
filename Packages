@@ -122,6 +122,18 @@ SHA256: 88f38fc1a1d863ef234857cfaaaa0b758a5d3c42a0e5bcacbafcc0686a6a1a00
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
+Package: engines-pal-temp
+Version: 1.0
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Filename: ./pal/engines-pal-temp-amd64.deb
+Size: 16324
+MD5sum: 8eb2748fee52e47aec9370bff4c9e707
+SHA1: 0a893b88e5de16297c2a4d9c8482199120f4cd67
+SHA256: 653c5ea41a8f27c33549f7fc6c8002f5297fb1faa5df895e192e18d38d792044
+Priority: optional
+Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
+
 Package: engines-pal-usb
 Version: 1.1
 Architecture: all
@@ -483,12 +495,12 @@ Package: pal-temp
 Version: 4.3
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal, engines-pal, lut-pal, opencv-dvu, miscellaneous-pal
+Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal, engines-pal-temp, lut-pal, opencv-dvu, miscellaneous-pal
 Filename: ./pal/pal-temp-amd64.deb
-Size: 2616
-MD5sum: bc5393b37bff5b924ff6c6b42334cad2
-SHA1: 5c4c04f7b2ccfbb8375a57287d9ae59caf02f1c7
-SHA256: 0237d6c27682590ae208b63e87071de695249243c6cc38238970f4d774793e6a
+Size: 2620
+MD5sum: f82c26c8be59a2e01e97b056768519ff
+SHA1: 2dd36e4fdbb56a0514cd9213babe762afffedf05
+SHA256: e6235c0a46a560588fba3a80be3a2367e3a36e759ee71b3323e305d55f7b62dc
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
