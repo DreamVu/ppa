@@ -233,28 +233,28 @@ Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for 3D Object Detection Tracking PAL USB.
 
 Package: miscellaneous-pal
-Version: 1.0.0
+Version: 1.2.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-amd64.deb
-Size: 100016
-MD5sum: 474e8ceff0dbda57b4be78194efb1d07
-SHA1: f86d0813a532a2254370cb18eee7c0e22fa9a7fb
-SHA256: afbc9a791cd49249fc40ba54aba1607a2c6503e7ebbb8d603982195f2947ad1a
+Size: 99972
+MD5sum: 1769ac141cb293bc3236db7e28b42abf
+SHA1: 58b9c4d0d02fb92793ae94062b9070104a7945c2
+SHA256: 34261de3bdbf1aa4aec4c76159a4fc3f390c544924b7279a2f70552b4265c4c0
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
 Package: miscellaneous-pal
-Version: 1.1.0
+Version: 1.2.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-arm64.deb
-Size: 92468
-MD5sum: df7be42e8c5ea0110d5f41378cd6c426
-SHA1: 613569cab4ad24f27a013e66e88d4ea98ab56432
-SHA256: 7f64bd53c72f8e97fbd677f756d0d3183aec040e840f1d601cc9f8952648e7ad
+Size: 92500
+MD5sum: 356e88951c9cfd36fd70a815b7d4fbfa
+SHA1: 45b1e313048ff8d043374ef7e8083b416480d660
+SHA256: c7999b2b83b0e6fa6a380c6c9fbee1c10acd474d9f2bf4855762f0714152692c
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
