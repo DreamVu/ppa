@@ -264,10 +264,10 @@ Architecture: arm64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-mini
 Filename: ./pal-mini/miscellaneous-pal-mini-arm64.deb
-Size: 42640
-MD5sum: 9d35d38b772868cce35a60c96355bf35
-SHA1: 6fcc023369cd208f3e6caff3cad59428358a349f
-SHA256: b2f7333f7b728473de99b7426ba6b36460324c2f4094c9e50af0e46122e35029
+Size: 42680
+MD5sum: 1e923880e9bfe04d7bc0cdb72737bfa8
+SHA1: 7aed07db4db7ae674d811aeec6900c4d8b6c91dc
+SHA256: a7628d10b76af71d667230ef68c739b7122f0f38886509f21f70081a0680abea
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
@@ -277,10 +277,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-mini
 Filename: ./pal-mini/miscellaneous-pal-mini-amd64.deb
-Size: 84008
-MD5sum: cf427f2841e8d3c7f9594d87aac46a46
-SHA1: 2dfb14d9da83123b41334d6fca49d7b885763070
-SHA256: a21d198d36ddffe3d96bccb9b04887d43afb87231ae5e4651dac11bebc0fde59
+Size: 84036
+MD5sum: 3066dcea30b3f3db5c1395d3c6f88bb0
+SHA1: 88155075e72a13d689c8e8e73024dc3443107c94
+SHA256: ded9a9640b1a07971c4d7fa5bb5da53aa10231ceaabf1d79ff55f76e3a973c25
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
