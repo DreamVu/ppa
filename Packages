@@ -290,10 +290,10 @@ Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: python3.6-dev, python3.6-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy
 Filename: ./pal-usb/miscellaneous-pal-usb.deb
-Size: 287998
-MD5sum: 15003bcc36c35d6d05c4164e3998620d
-SHA1: cfd3c715b0abe89f439aa04216e3fbcea371b785
-SHA256: 4811599dd9234e888cc5dc2a6b7f8f6a60e1f0d5d1b62f14da3332244035e680
+Size: 289832
+MD5sum: ce48f8959fd94f951bc52f5ec783c1d7
+SHA1: f5012f31819ffc222db4dc3c138ec26b954c18d4
+SHA256: ce5d6083a85b49d4fcd37a3997c17a63ef9340177aee9560a5fe3671a8b1a5e5
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-usb.
 
