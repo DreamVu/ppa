@@ -63,26 +63,26 @@ Priority: optional
 Description: This will copy the build engine script and generate files to /home/$USER/DreamVu/buildEngine/.
 
 Package: engines-pal
-Version: 1.0
+Version: 2.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-arm64.deb
-Size: 31692
-MD5sum: c645cbaeca3c30e7f3bba2be550c68b6
-SHA1: afb625df39e53962173725d5b811945e75d62862
-SHA256: dbc77f661d039b9331d0fbd59ff7dd813a3871e94d1a8a31205869564c4e01e6
+Size: 32400
+MD5sum: 67230536fd481c1f07bc9e103a30243b
+SHA1: fce81ee0bcd368928f5dcb23b770ed3ad05c6f94
+SHA256: d798d90ef9112527a7b5fe01bd07c582913aefd3fda7d7c6e1ee34a089de39f3
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
 Package: engines-pal
-Version: 1.0
+Version: 2.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-amd64.deb
-Size: 16224
-MD5sum: 7962adf07645a96e5cf742f0b1cd8618
-SHA1: b76df9b016e67eb688fea3a5b077262c494936d7
-SHA256: 38ebc6ccebd1f55e1999e57ed5408c6eeeb8275f414480087668e5a0a2204531
+Size: 16480
+MD5sum: ac27ce69acc04263faa5585cc24fdc73
+SHA1: a2d6141852b1942d0eed35a4fbd354eedd580efe
+SHA256: fc020bd613d5cad4316055efcebe355d733a60a50d8f74f42dcd2f3699c79341
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
