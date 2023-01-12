@@ -251,10 +251,10 @@ Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-arm64.deb
-Size: 92572
-MD5sum: bfad0393364f0f915a456705fe1eb4fe
-SHA1: bb6c796eefe685b04c79512a3d35332b6f3c3078
-SHA256: 529c0b1b2ae4a6b2513c09c25be60683506f405fcff5cafe386f1046bbba6e03
+Size: 92560
+MD5sum: a324d98d0d60dfa929b67194b16d7a3a
+SHA1: 5b58418a12811ba024e999c86d94e912dd76b373
+SHA256: 25ca1a3a64ac6ed30a91c7f18258f98639808ae1fbd19d8620e3a7a62ababb66
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
