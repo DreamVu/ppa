@@ -67,10 +67,10 @@ Version: 2.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-arm64.deb
-Size: 34912
-MD5sum: 2da48f8c0bcf3a8374d8413bb1b9adfe
-SHA1: 8c1f8f1d6e72c9fe490f5fbc7309975a41002fa3
-SHA256: ce8aed83b596b25d06692dcfd413ed4d1d667e7294efa497b24fbb015adc3563
+Size: 34896
+MD5sum: f6661c8d97275f261ab2da55507a2d34
+SHA1: 8301d20ff7ab8f1838525a59bb12d1798ed3b7e5
+SHA256: 1d0f4c69f95e7572df2f285e7922842d79525c603a6d12f9b602795be4b60e24
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -127,10 +127,10 @@ Version: 1.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-temp-amd64.deb
-Size: 20328
-MD5sum: 9ba92aeec1ff450a2786ed6580862f25
-SHA1: 4503939188734df41685957f32ba4f7e9889c682
-SHA256: 96de0ae0e7a89760038e1d2bf650b39136f23720a41ab9581a2aa5d608b97523
+Size: 20396
+MD5sum: baa6b58610b4089232bbb0bb0801c3ef
+SHA1: 8f23b58eca3daea169f726bfd17c39aa6856241d
+SHA256: 45b1fdfbec60f9851236d6682c5eaf8c986ff1b409fa78206732f4bc72e4040e
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -524,9 +524,9 @@ Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal, engines-pal-temp, lut-pal, opencv-dvu, miscellaneous-pal
 Filename: ./pal/pal-temp-amd64.deb
 Size: 2700
-MD5sum: 030e0cf0a804a3be78008d05f603586e
-SHA1: d5e72216188a7d61f04dbbe7ec3dd05f4790b90b
-SHA256: 5df3202d0035236241f50d9bf785cd612286ea7f40539a3d892c76cbf296ab17
+MD5sum: d1c84a27bf3c7383d673ecf067efb593
+SHA1: d02032d676ea1eeddc4c06af05d94f751d94da6a
+SHA256: bdcda239c53dc458f60f85d9e53be3dfc1abf48786eaa1f05feb66ba94e2be78
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
