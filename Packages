@@ -367,10 +367,10 @@ Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters
 Filename: ./pal/pal-foxy-navigation.deb
-Size: 11416
-MD5sum: 8d70df90dca88eb061ad6022069b872b
-SHA1: d94f8c6cd471fd198f540a1d7db5cce947758c21
-SHA256: 857ae2610347b344b99470f615634f13505e6cf2c1a45e2599b3aa85c0416147
+Size: 11452
+MD5sum: 4e7b8563bbd7101e67fa2cd468cb3f21
+SHA1: 56a060eb32c60a7f6fb19fb0c21bf92275d62b3f
+SHA256: 9eaecefec80ef41a8f92138f293e3d1c6a9c19534043d8d714f6704519cd3496
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -380,10 +380,10 @@ Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./pal/pal-melodic-navigation.deb
-Size: 18704
-MD5sum: 4a5b20465b5438755339d2a4013ad2db
-SHA1: 9e0a20a16d4cf05c8304e1119f527a8d1d2b0139
-SHA256: 666128d4686c131b7d74bddc3d46c89b620efdd23825125f50240ab5a445e442
+Size: 18832
+MD5sum: 932e0d36801fe34665a1616e0d37df01
+SHA1: 635faed429632957f943c4c545ffe015ad6c5dc6
+SHA256: 2930864d0cada56b821796d72395fe57d63d986aaad208ea2587f8a5ff4311b8
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -497,10 +497,10 @@ Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./pal/pal-noetic-navigation.deb
-Size: 18448
-MD5sum: 5cbd1b9c4e8575c05542297f40334c9e
-SHA1: eabd0c524f881b9fb9d3467ce6cecdba4df7f66a
-SHA256: dd6de86ed765b5f50bc6ab2aac2da5a627b4b1d1a8f5467cfb091f15abe625fe
+Size: 18600
+MD5sum: 71bc58eaa33468081f00a201d669e83b
+SHA1: 5b5e7b8a71c3274293840c7a6a80c093e7a0fc49
+SHA256: a101e0ceefc06112300d81a71de91e89824f96060109278936715b793b407c9f
 Priority: optional
 Description: This will install ROS Noetic.
 
