@@ -300,12 +300,12 @@ Package: miscellaneous-pal-temp
 Version: 5.0.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
+Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-temp
 Filename: ./pal/miscellaneous-pal-temp-arm64.deb
 Size: 34544
-MD5sum: fb4f16a428bfa9e6bd2bf416622cbfd3
-SHA1: 0eb11435940f6738a5464fbcc9e1001266719a29
-SHA256: 47fc29577fab98b06fd386326771da271c4f482e705a9ec5ee2188b7a9c7e6c2
+MD5sum: 97a945182eb21096f4ec8f0d598bb649
+SHA1: f8d4e432b5412c2dc0eea1a98cc088fd44a7b162
+SHA256: 2955fb52d2a08d655b05c845480493d9a1bc914380a963a5bd7960a11b259734
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
