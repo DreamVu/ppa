@@ -297,15 +297,15 @@ Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
 Package: miscellaneous-pal-temp
-Version: 5.0.0
+Version: 5.0.1
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-temp
 Filename: ./pal/miscellaneous-pal-temp-amd64.deb
-Size: 39280
-MD5sum: 437f0e820c8d2f0a2476dc2903fdfd34
-SHA1: 8977ad087abcc9f61fd9bde01f68d2defb659c16
-SHA256: 3b01e47df6da2231b388c825316f8d99ec3a3d5edbb8b46d1a83879d7c792be0
+Size: 66592
+MD5sum: ef2c50b69f0ec9e3350157669f71e6c6
+SHA1: 3987a7a11542ff4ff5cea0b9f6698aff2d874dfe
+SHA256: 5bf975bbefe24d2cd6cced73530f36439c366cd9474ae55b77a19002154459d6
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
