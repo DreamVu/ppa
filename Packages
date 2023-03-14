@@ -111,18 +111,6 @@ Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
 Package: engines-pal-temp
-Version: 1.0
-Architecture: amd64
-Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Filename: ./pal/engines-pal-temp-amd64.deb
-Size: 20396
-MD5sum: baa6b58610b4089232bbb0bb0801c3ef
-SHA1: 8f23b58eca3daea169f726bfd17c39aa6856241d
-SHA256: 45b1fdfbec60f9851236d6682c5eaf8c986ff1b409fa78206732f4bc72e4040e
-Priority: optional
-Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
-
-Package: engines-pal-temp
 Version: 5.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
@@ -131,6 +119,18 @@ Size: 13868
 MD5sum: 5b1e4ea4ab04c048fec70324b06f0547
 SHA1: 17055909f180816545f84ae1839d337ddb99d00b
 SHA256: cc4a294fa6da6a04efd2bc59161c2e836396c289fd3f760d0339e55d7b8e93ca
+Priority: optional
+Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
+
+Package: engines-pal-temp
+Version: 5.0
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Filename: ./pal/engines-pal-temp-amd64.deb
+Size: 12724
+MD5sum: c1eef27b2931d53c03c058747d2ece69
+SHA1: 896b3105dac4fcde86a6b6845d301a6f5f379f44
+SHA256: b6490f1080aed2ecca174c82f8ddb65800a1d1db7b1d2014fda60c2df3eda2ac
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -295,6 +295,19 @@ SHA1: 88155075e72a13d689c8e8e73024dc3443107c94
 SHA256: ded9a9640b1a07971c4d7fa5bb5da53aa10231ceaabf1d79ff55f76e3a973c25
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
+
+Package: miscellaneous-pal-temp
+Version: 5.0.0
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-temp
+Filename: ./pal/miscellaneous-pal-temp-amd64.deb
+Size: 84360
+MD5sum: 70effcd53771100fc2762767bcd01c9a
+SHA1: 52613ec4cad71dff89a014e0b46a3bc977d6a50a
+SHA256: a6d1484de348a7a7fc70c942d0494e1315b3b57df2b65a0d544b6cc36492b227
+Priority: optional
+Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
 Package: miscellaneous-pal-temp
 Version: 5.0.1
@@ -530,19 +543,6 @@ Priority: optional
 Description: This will install ROS Noetic.
 
 Package: pal-temp
-Version: 4.5
-Architecture: amd64
-Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal, engines-pal-temp, lut-pal, opencv-dvu, miscellaneous-pal
-Filename: ./pal/pal-temp-amd64.deb
-Size: 2696
-MD5sum: 27313d2bd87d978bb06730c6a0401608
-SHA1: ac3aeffe39565de093dd700fc0f86c4f75681392
-SHA256: 9534f0b25ed4a9d1c008c8c9373026f5a9dd7ef26ed8c7f1fa595799f7f65ef1
-Priority: optional
-Description: This will install PAL along with it's dependencies.
-
-Package: pal-temp
 Version: 5.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
@@ -552,6 +552,19 @@ Size: 2556
 MD5sum: 3fb41dd2478570d24fd193e87ea2740e
 SHA1: 8cd3ae2627da31893e552a8103b76f32669a12df
 SHA256: 711532b1626b4a8e8ae36f7c30e03b271a56e13543be49779a64f2d24323a42a
+Priority: optional
+Description: This will install PAL along with it's dependencies.
+
+Package: pal-temp
+Version: 5.0
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal, engines-pal-temp, lut-pal-temp, opencv-dvu, miscellaneous-pal-temp, libeigen3-dev
+Filename: ./pal/pal-temp-amd64.deb
+Size: 2716
+MD5sum: 0b095558750c846d1055c452127ac1af
+SHA1: fadc05ffcfae62122c63f93ca6ce247dbacd0b87
+SHA256: f6496deb930ad56c534f9a9f5c91da0063a49384b57b233a219aec5c488e0256
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
