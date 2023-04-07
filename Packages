@@ -297,28 +297,28 @@ Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal-mini.
 
 Package: miscellaneous-pal-temp
-Version: 5.0.1
+Version: 5.0.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-temp
 Filename: ./pal/miscellaneous-pal-temp-amd64.deb
-Size: 66592
-MD5sum: ef2c50b69f0ec9e3350157669f71e6c6
-SHA1: 3987a7a11542ff4ff5cea0b9f6698aff2d874dfe
-SHA256: 5bf975bbefe24d2cd6cced73530f36439c366cd9474ae55b77a19002154459d6
+Size: 64652
+MD5sum: 4e30bad9e43059f45d0a0332b08ce120
+SHA1: 7ff23b20ba4d8440e44633d7f2abf84bf6382e2d
+SHA256: 1043824ea9b29243c72786ee4f65032e8f01c8f01a25fa13ac1e590430aaa2c9
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
 Package: miscellaneous-pal-temp
-Version: 5.0.1
+Version: 5.0.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-temp
+Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-temp-arm64.deb
-Size: 55732
-MD5sum: c3b7e10947f46dbd4a482b15aad29c6e
-SHA1: 2233d51ffd502d30e76fd071e2199d23108afecc
-SHA256: b9ddb59a1417bb1fed7697c2b28e486dca00f9ddc90699de9ac994477e4acfe6
+Size: 58084
+MD5sum: 990d79a98aa60491fd3da1e1218a5a94
+SHA1: 616c2e027e067610d9c63426b5226940fa28a33c
+SHA256: e7f117301d3ac62f2df03ee2e571a1968076a3b38aa6f386a5bd266d2dee9107
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
@@ -585,12 +585,12 @@ Package: pal-temp
 Version: 5.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: git-lfs, git, xorg, build-essential, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libv4l-dev, libsdl1.2-dev, libsdl2-dev, python3-dev, python3-venv, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, libglew-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libeigen3-dev, lut-pal-temp, engines-pal-temp, miscellaneous-pal-temp, opencv-dvu
+Depends: git-lfs, git, xorg, build-essential, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libv4l-dev, libsdl1.2-dev, libsdl2-dev, python3-dev, python3-venv, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, libglew-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libeigen3-dev, lut-pal-temp, engines-pal-temp, miscellaneous-pal-temp, opencv-dvu, jetsongpio-dvu, libarmadillo-dev
 Filename: ./pal/pal-temp-arm64.deb
-Size: 2568
-MD5sum: 6bf102f9c99520b388a15645c879b494
-SHA1: 69435e0f328384fa2df9837a8f1cb31d958d7c84
-SHA256: 6ee664dcb751485f634896ec75eff928f25c282d5548833011bd4e98f598ece5
+Size: 2588
+MD5sum: 87d3268de4fee74c96e7f36fa11a2644
+SHA1: 75440fa4272007b1289a6d4911858ca0da80a5f9
+SHA256: 1f8905c0a626eae6c077bd2d4159ff4213b4fa8359920d9fb952c2d4a949adcf
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
