@@ -298,6 +298,19 @@ Description: This will install dependecy activation and create python virtual en
 
 Package: miscellaneous-pal-temp
 Version: 5.0.0
+Architecture: arm64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-temp
+Filename: ./miscellaneous-pal-temp-arm64.deb
+Size: 36912
+MD5sum: 626cba2281d9d1a219c8f6644df7ce4a
+SHA1: ad041fad106a8a82afe4fe913d59bf6ee8bb559c
+SHA256: 4d0a228d85e4b8869bb2ce56e3c28b0e305d3161b1e7225ad16bcfc8ebbbe7d0
+Priority: optional
+Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
+
+Package: miscellaneous-pal-temp
+Version: 5.0.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-temp
@@ -313,12 +326,12 @@ Package: miscellaneous-pal-temp
 Version: 5.0.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
+Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-temp
 Filename: ./pal/miscellaneous-pal-temp-arm64.deb
-Size: 58084
-MD5sum: 990d79a98aa60491fd3da1e1218a5a94
-SHA1: 616c2e027e067610d9c63426b5226940fa28a33c
-SHA256: e7f117301d3ac62f2df03ee2e571a1968076a3b38aa6f386a5bd266d2dee9107
+Size: 58072
+MD5sum: 05add57191b9f76c3c9bec5bb1df9ba0
+SHA1: f20221fcd8427aa1a04e81663a02a93093a67516
+SHA256: 245f2e5f0c72c2157d425908dc6dd57c4a6fcb9591359676536af1da91b3040a
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
