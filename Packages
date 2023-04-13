@@ -115,10 +115,10 @@ Version: 5.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-temp-arm64.deb
-Size: 13932
-MD5sum: 8378173e2ec9f472756dd6ea984b47c3
-SHA1: 7932543b6bbb0e864188d4e89c588b0ffa07b8c7
-SHA256: 28ca357d7b888e08487c8f4b293fc6b742512091e319f2a92838001fa6fc7105
+Size: 13944
+MD5sum: a7e298d6f6a4311fa904ec27da08f5dd
+SHA1: bee41803edda0be046314dde5b8cb294d02e756f
+SHA256: 56c2f276f4d2450c2495fb4f73618b67dfc01ceadc33c3f1feccee622d2edf98
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -127,10 +127,10 @@ Version: 5.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-temp-amd64.deb
-Size: 12744
-MD5sum: 265d922001032196db4a66bef6220eec
-SHA1: bddd7f6507ab0edbfb15a60a13a72ec884be24ce
-SHA256: d0d2e2abff865d3d805720c0e67cd35bf9656d812d704b874d106fb96e4f3f83
+Size: 12724
+MD5sum: af3277911dae2194fb552473f7caa069
+SHA1: baf52bd7bfba489a29e81c4586f76d0c7afa89f0
+SHA256: c41103458b53722da492a589125bba891207e840afb9efac6ad7a34be2cd3192
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -418,10 +418,10 @@ Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters
 Filename: ./pal/pal-foxy-navigation-temp.deb
-Size: 14696
-MD5sum: 4a4e48b452652ab631a84cc46f0a2b9c
-SHA1: 20ced61dd22d8c95ed8b53e219715dc5fdb9550a
-SHA256: 6fbfb468bc6477bc2d7f7029421adcd781b508f600b0c5465e7e26fe3cc4ab0f
+Size: 14568
+MD5sum: f9efc8bbd4669ea00dde8f81157282d8
+SHA1: dedebed4c0253cddf2b27c206f7c799d12e40e6e
+SHA256: 67fa16343a7ce26dbe742c9931ede128e228536eeafd7c0867ecdbb3a40a0945
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -444,10 +444,10 @@ Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential
 Filename: ./pal/pal-melodic-navigation-temp.deb
-Size: 24068
-MD5sum: 7d938e570af14f1d5fb6ff1a2efaa466
-SHA1: 57fde9992bf297fcc0d81f8bb6775752e8d7a861
-SHA256: fd381bead1c04148eef3f6c3c3e58cd07be31e5e6c463df56155e5a650ae0f00
+Size: 23176
+MD5sum: 956b83bf51eeddfdda9528c6d0b235f0
+SHA1: c3226d5be3d75ba3a0723c59a86986c127afa505
+SHA256: b106b335d1d0fc4e562b90fe43145be2eabde53f3b9171bc66d6bef04505a121
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -574,10 +574,10 @@ Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential
 Filename: ./pal/pal-noetic-navigation-temp.deb
-Size: 23824
-MD5sum: 19d461b556f9028c218abedb9b38611b
-SHA1: ae02d2fbdec16ce259c407fe589a0e518de36d0b
-SHA256: 2c62f3e5832ba7031052d566f1ac1dc5c18e878a4f9fca8327b8b0410eca15d7
+Size: 21340
+MD5sum: b39a810f407873d1b17c5e625805e8bf
+SHA1: 066259e82baae929423f2cbbc83d1630bc976524
+SHA256: 168ae18e3de8f63fe7a90eee1fd57778b44e7363eefaab04903ff91adc0dfa72
 Priority: optional
 Description: This will install ROS Noetic.
 
