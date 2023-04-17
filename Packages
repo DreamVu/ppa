@@ -207,14 +207,14 @@ Priority: optional
 Description: This will copy the lut files to the root directory.
 
 Package: lut-pal-temp
-Version: 5.0
+Version: 5.1
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/pal-lut-package-temp.deb
-Size: 60832
-MD5sum: 169a509973ad77bb292c1252f7f656f5
-SHA1: b4893f9a23304e41f561aa7810c741d336f257f7
-SHA256: 7060597fbe65caa16b310db3659576798d27c91655432516a841291574fc8f9a
+Size: 287352
+MD5sum: f3db16689a7ef42f9a3cde7a546b69cb
+SHA1: 370f4a5368d96a86c6d90b7fd9cf6b0a4ba256da
+SHA256: 2dfdf0fd2318a97281cbf7b7201ccd04dd75f3bb593aae1fe5c6fb1b6aa658a7
 Priority: optional
 Description: This will copy the lut files to the root directory.
 
