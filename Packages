@@ -363,13 +363,13 @@ Description: This will install Open CV.
 Package: opencv-dvu
 Version: 4.4.0
 Architecture: arm64
-Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++
 Filename: ./common/pal-mini/arm64/opencv-dvu.deb
 Size: 2120
-MD5sum: 7ede7b16b0fea486aed390a33cdc352b
-SHA1: 8c54db2cca5d88fdd74853427f7ed8f9dd30e5cc
-SHA256: 9306b49ae20263fa1ed260cfc0b2830ff335c95bbedfb1ac277919b7b5060faa
+MD5sum: 0e2d56982e6611da7e1956226ced08b2
+SHA1: 9942f3b032c8333c5497ffb642f053d50c546d15
+SHA256: 3792cf6824314596749513514ac9586706092841f4f45549c638d4cbdcbbc430
 Priority: optional
 Description: This will install Open CV.
 
