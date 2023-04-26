@@ -127,10 +127,10 @@ Version: 5.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-temp-amd64.deb
-Size: 12724
-MD5sum: af3277911dae2194fb552473f7caa069
-SHA1: baf52bd7bfba489a29e81c4586f76d0c7afa89f0
-SHA256: c41103458b53722da492a589125bba891207e840afb9efac6ad7a34be2cd3192
+Size: 12740
+MD5sum: fbf00e0b2022c5c343c8e645a871245b
+SHA1: 67da8a128b653bbea9dea0481932ef2f85f393c7
+SHA256: 43687eeb02815f0873f56acaa2d148d32899d0d6f4bc64037951fbe8acde92bb
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -595,15 +595,15 @@ Priority: optional
 Description: This will install PAL along with it's dependencies.
 
 Package: pal-temp
-Version: 5.1.1
+Version: 5.1
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libtbb2, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal, engines-pal-temp, lut-pal-temp, opencv-dvu, miscellaneous-pal-temp, libeigen3-dev, libarmadillo-dev
 Filename: ./pal/pal-temp-amd64.deb
-Size: 2780
-MD5sum: 23f7637f550cc4559bf6a83fc0d857c3
-SHA1: e20cb7d2e58da260fd830815368a244e7c6b9281
-SHA256: 715fc3148bdda592faf14b63d9030547087b726c1548c2db6352f180290ade14
+Size: 2784
+MD5sum: ea6aa4048163cecede5438c6cab434a9
+SHA1: d427ac7e421c01daf3d927d2db830720fc69babf
+SHA256: 22723881ba16bac3c9ac40809b4cb7638bc9e8154e1e5d7004577c05fd3de68f
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
