@@ -607,6 +607,18 @@ SHA256: 22723881ba16bac3c9ac40809b4cb7638bc9e8154e1e5d7004577c05fd3de68f
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
+Package: pal-uart-receiver
+Version: 5.1
+Architecture: all
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Filename: ./pal/pal-uart-receiver.deb
+Size: 2884
+MD5sum: 621303df9568a4d9ace38723bc94b0ac
+SHA1: e48567ff0e4645dc7da3d5207669ca36e56a71c5
+SHA256: cb5cdded202e09c8d659b951e2ef59ce988cb978260117c5e0b17e66cde030b1
+Priority: optional
+Description: This will copy the uart files to the DreamVu directory.
+
 Package: pal-usb
 Version: 3.7.1
 Architecture: arm64
