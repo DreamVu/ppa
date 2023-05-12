@@ -112,18 +112,6 @@ Description: This will copy the build engine script and generate files to  /usr/
 
 Package: engines-pal-temp
 Version: 5.2
-Architecture: arm64
-Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Filename: ./pal/engines-pal-temp-arm64.deb
-Size: 14264
-MD5sum: 81ad0a8c5159ad681f18f044ea905bd7
-SHA1: 65333a27a13b72d0b80c66d373402ee7827e5372
-SHA256: 4c2d1b5866bad3f210e24ab7c32081ac3a0bd8f75e35354596cee4e6324a385a
-Priority: optional
-Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
-
-Package: engines-pal-temp
-Version: 5.2
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-temp-amd64.deb
@@ -131,6 +119,18 @@ Size: 13488
 MD5sum: 055d6ae9462181454d062a20bc35e7c7
 SHA1: 822728a85f36332e41fddb802f484b05132a00af
 SHA256: 8f79088bd95054da3d7c6e000ff418cb6d46f6beda33b45c08e304993f3c3f75
+Priority: optional
+Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
+
+Package: engines-pal-temp
+Version: 5.2.1
+Architecture: arm64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Filename: ./pal/engines-pal-temp-arm64.deb
+Size: 14264
+MD5sum: 13345da0de58fc2f02eacbc7df1f37dc
+SHA1: 20460551c7e5da57679d39b01e6305a0f614f1da
+SHA256: 54360082a99a1f92f8b3c7eac9e112f74fe83c06fb15ffc68ffb2f294a8f91da
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
