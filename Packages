@@ -286,10 +286,10 @@ Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-amd64.deb
-Size: 40856
-MD5sum: 7a97505c3c05b010d9c468ad6fb4dda4
-SHA1: 613366ecb4377f660059663668792b7892b435ab
-SHA256: 1e2b490360a538a9d6990a6558cc102a23f99c26fbb69280da34fdc6c72123b5
+Size: 65684
+MD5sum: 6fe72c9e86e0b1cd3bec76ae128e982d
+SHA1: 17117aee0571af47419216a8f1b27d9637c552cc
+SHA256: 9f817a6de880a720f0fd68213964bf69511b1a9b391a97aa6c3839a3141f378c
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
@@ -312,10 +312,10 @@ Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-dev
 Filename: ./pal/miscellaneous-pal-dev-amd64.deb
-Size: 65600
-MD5sum: 39bbebcb45d17829d3d55e4736f66608
-SHA1: b86456406cbefdcc8589d7c5d0eb21e5f3fed634
-SHA256: fe6292d2817570832476f9937f0f8119dbb2a5c7603c61681dcda9c39196c489
+Size: 65716
+MD5sum: 90b89cd676dcb3cb21141d6a3393ef62
+SHA1: 532b321d525ebf557629bbb336efab15d3f3b058
+SHA256: 81ac3a1093eda810ba497a7b988670cc4933e726c0edcdff3631166f799b453e
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
@@ -325,10 +325,10 @@ Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-dev
 Filename: ./pal/miscellaneous-pal-dev-arm64.deb
-Size: 39100
-MD5sum: d311615d7b50673bc63c6a2102733977
-SHA1: e0a452b5f3be45fc66f4034d258331e1dea611d1
-SHA256: 1e229b53f4ba6645015b598fc2fc98852f16d40666da8073a590e291c407f904
+Size: 63944
+MD5sum: e549ee83fc0b5ca8bc86ee1cf30ec699
+SHA1: 46493b57bbf96b6b94b249a03ecd9ad4d7dd1f28
+SHA256: 0c1fdb875d994b8eee8028e792e9b1335a942aaa2e2559b8442185c7e97a8bd2
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
