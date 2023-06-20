@@ -175,10 +175,10 @@ Version: 5.3.2
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./common/pal-usb/jetsongpio-dvu.deb
-Size: 1246032
-MD5sum: f7b7d85cea7b9c31c0492ab62aa736d5
-SHA1: 0856d66e50d9a7187cad893d3095525bbf71b998
-SHA256: d4084392bae642304816d8d8715294871f845fd7fbf8f3a6902fd5ebcf3569c5
+Size: 1243048
+MD5sum: 59eedec9482f3a7703f3783e26db50a0
+SHA1: 75def357ba59c65c8581f7b87a96d3031b0e97a3
+SHA256: 719f5dff12c3a7f11c9935f8fee1694b46fc7398dd373682203de078f7e821fa
 Priority: optional
 Description: This will install JetsonGPIO.
 
