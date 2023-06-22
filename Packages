@@ -778,9 +778,9 @@ Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/pal-uvc-driver-amd64.deb
 Size: 1572
-MD5sum: b1ae44bcc49b6c873d3729279f353758
-SHA1: c07f6793c872e1d244214fb2b90c97aa0e572964
-SHA256: 95dd951a1485493a3af4a8a116fa0b4ef359d64b67aec9ea124abaaa9f12e2ea
+MD5sum: c8280b71b3d45fa654862b91bc92d4f7
+SHA1: 78f2df10d6b75ec37c4cc6b7cc4baf688b4bb103
+SHA256: edcd528b6fcec042efa0792783c7fe13679c5942f44af37490833138a049bb7c
 Priority: optional
 Description: This will rebuild the uvc driver for increased bandwidth
 
@@ -790,10 +790,10 @@ Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: libssl-dev, libncurses-dev, lbzip2, build-essential, pkg-config
 Filename: ./pal/pal-uvc-driver-arm64.deb
-Size: 5796
-MD5sum: e31732b700b9899a9f555f014069b7e5
-SHA1: be1abef1d9fa7b1e9a32cfd38338bca31247f474
-SHA256: 3f88dcb99ddff86848c852516002f2a635172f9dab6eaebf14d7df2ffc84ba85
+Size: 2052
+MD5sum: 51728ec4e2426aa041b559a5878fd319
+SHA1: ff4254e11273badb0f7def6655007bfe42897437
+SHA256: a16f3a1f8281797bb4865bebe0199a0c686fae3fd4747c06ba32e05a4e31a815
 Priority: optional
 Description: This will rebuild the uvc driver for increased bandwidth
 
