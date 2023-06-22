@@ -777,13 +777,12 @@ Version: 1.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/pal-uvc-driver-amd64.deb
-Size: 1588
-MD5sum: 4933f225e133b46ec20f416527b48427
-SHA1: 97281f91cbd97fadc7b855e7ef2335236074c9e5
-SHA256: b7bb62663cac203d4b571b617163ef41069a6bec2a453cc8776c05faff6e68f9
+Size: 1572
+MD5sum: b1ae44bcc49b6c873d3729279f353758
+SHA1: c07f6793c872e1d244214fb2b90c97aa0e572964
+SHA256: 95dd951a1485493a3af4a8a116fa0b4ef359d64b67aec9ea124abaaa9f12e2ea
 Priority: optional
 Description: This will rebuild the uvc driver for increased bandwidth
-Build-Depends: linux, linux-image-unsigned-$(uname -r)
 
 Package: pal-uvc-driver
 Version: 1.0
