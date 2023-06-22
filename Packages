@@ -778,10 +778,10 @@ Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: dwarves
 Filename: ./pal/pal-uvc-driver-amd64.deb
-Size: 1620
-MD5sum: 7d64ee23062c8211714fd120d0114c41
-SHA1: 86ab344a2f0391ff4db14ce20a5ad097d29ec94a
-SHA256: 404d05eaf76ab34a6bf355d24616d25401bfcfda414e812917326a844f6090a9
+Size: 1600
+MD5sum: 7295a2f593003b2c976a35a676e456c8
+SHA1: 218bdd952bb8f15723fc74f07af740960a738619
+SHA256: 47984228b626c93274ba3daca76f30f7f7b0f10c87144b57b71bb478e7703169
 Priority: optional
 Description: This will rebuild the uvc driver for increased bandwidth
 Build-Depends: linux, linux-image-unsigned-$(uname -r)
