@@ -223,10 +223,10 @@ Version: 5.2
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/pal-lut-package-dev.deb
-Size: 379472
-MD5sum: 0a6cec5450b138a36eb5b9371fa31f6a
-SHA1: 4d48a75fd0eb3d92e12e8caa06d170217d3c8d1e
-SHA256: 7c7207e492d54dc7321d2cf0114bcbd076686e2bb5dc17906df9de6541e45dc0
+Size: 394440
+MD5sum: d4723cbf4581076d33ceefebfab4bec0
+SHA1: 610d3f222546a837ae91d579814bcc5e51d9672b
+SHA256: d57f2c12dff62da348220b5b932a7b54ea449cba3279bd15ad5af3d6a7030dac
 Priority: optional
 Description: This will copy the lut files to the root directory.
 
