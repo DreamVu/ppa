@@ -791,10 +791,10 @@ Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: libssl-dev, libncurses-dev, lbzip2, build-essential, pkg-config
 Filename: ./pal/pal-uvc-driver-arm64.deb
-Size: 2040
-MD5sum: 39f4693e1721880d5a57cc68cdbec5b1
-SHA1: 1f302a2f85a58f2fb00c091a2a45b642f6ef2084
-SHA256: 4d89079c8f9655741a2da4d0880ff27b33b4faea98621beca66634fccd8e9681
+Size: 5796
+MD5sum: e31732b700b9899a9f555f014069b7e5
+SHA1: be1abef1d9fa7b1e9a32cfd38338bca31247f474
+SHA256: 3f88dcb99ddff86848c852516002f2a635172f9dab6eaebf14d7df2ffc84ba85
 Priority: optional
 Description: This will rebuild the uvc driver for increased bandwidth
 
