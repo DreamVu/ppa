@@ -774,6 +774,20 @@ Description: This will install ROS Melodic.
 
 Package: pal-uvc-driver
 Version: 1.0
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: dwarves
+Filename: ./pal/pal-uvc-driver-amd64.deb
+Size: 1620
+MD5sum: 7d64ee23062c8211714fd120d0114c41
+SHA1: 86ab344a2f0391ff4db14ce20a5ad097d29ec94a
+SHA256: 404d05eaf76ab34a6bf355d24616d25401bfcfda414e812917326a844f6090a9
+Priority: optional
+Description: This will rebuild the uvc driver for increased bandwidth
+Build-Depends: linux, linux-image-unsigned-$(uname -r)
+
+Package: pal-uvc-driver
+Version: 1.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: libssl-dev, libncurses-dev, lbzip2, build-essential, pkg-config
