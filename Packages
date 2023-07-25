@@ -171,14 +171,14 @@ Priority: optional
 Description: This will copy the build engine script and generate files to /home/$USER/DreamVu/buildEngine/.
 
 Package: jetsongpio-dvu
-Version: 5.3.2
+Version: 5.3.4
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./common/pal-usb/jetsongpio-dvu.deb
-Size: 1243048
-MD5sum: 59eedec9482f3a7703f3783e26db50a0
-SHA1: 75def357ba59c65c8581f7b87a96d3031b0e97a3
-SHA256: 719f5dff12c3a7f11c9935f8fee1694b46fc7398dd373682203de078f7e821fa
+Size: 1244368
+MD5sum: c6cff48e389f932d13b4bea6839d2055
+SHA1: 73c6e6f36d02a52ca7dbd45a2b78d11fb186baa1
+SHA256: b115a673bf80ea7cb5011f82633088e445af58d8699fc8d17c2488a3f38d493e
 Priority: optional
 Description: This will install JetsonGPIO.
 
