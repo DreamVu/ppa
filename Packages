@@ -415,10 +415,10 @@ Architecture: amd64
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
 Depends: build-essential, cmake, unzip, pkg-config, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev,libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++
 Filename: ./common/pal-mini/opencv-dvu.deb
-Size: 1272
-MD5sum: bc327ed5d82eac6bc5c1a5de7758f3b3
-SHA1: 7a28b92fa64389fd05eb7ffa60ab5c831bd9c312
-SHA256: e17f710d1fb26d6068402dd2563a9cb99cc8ecc772fafdb73f094a38a3b5991e
+Size: 1488
+MD5sum: c9aad40ac7a4da8575f176fa3b835ba6
+SHA1: 3479f56bde446d002bc380399808ce82e7cf5103
+SHA256: 5fca250415148fb49086edb07c934703e965b761cd5387dc98cffec96f62ebae
 Priority: optional
 Description: This will install Open CV.
 
