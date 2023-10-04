@@ -219,14 +219,14 @@ Priority: optional
 Description: This will copy the lut files to the root directory.
 
 Package: lut-pal-dev
-Version: 5.4
+Version: 5.5
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/pal-lut-package-dev.deb
-Size: 394556
-MD5sum: fb32aa9be491eb865e5478e1f59a7287
-SHA1: 7f019f8650544d9119e5ba6c455557537ec84bb4
-SHA256: ff9f1f9cf5fc361caded72eef8194055852836bbbb85cfaa0de6e5694081f9b0
+Size: 394352
+MD5sum: 55d9906315e9574b7bedd045d875a0e3
+SHA1: 8d122d93c66d257e7e03db6361586662a1e7b3f1
+SHA256: cca651460aaff94f202977c7bd8f3a8511dabefc4050937daab4ffebd244d9d8
 Priority: optional
 Description: This will copy the lut files to the root directory.
 
@@ -475,15 +475,15 @@ Priority: optional
 Description: This will install PAL along with it's dependencies.
 
 Package: pal-dev
-Version: 5.4.1
+Version: 5.5
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libtbb2, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal, engines-pal-dev (>= 5.2), lut-pal-dev (>= 5.4), opencv-dvu, miscellaneous-pal-dev (>= 5.4), libeigen3-dev, libarmadillo-dev, pal-uvc-driver
+Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libtbb2, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2023.0.1, ppa-pal, engines-pal-dev (>= 5.2), lut-pal-dev (>= 5.5), opencv-dvu, miscellaneous-pal-dev (>= 5.4), libeigen3-dev, libarmadillo-dev, pal-uvc-driver
 Filename: ./pal/pal-dev-amd64.deb
-Size: 2968
-MD5sum: 1e0b2172a67c59c288dfac0c48c4baff
-SHA1: 18e5c3580a2c5f8a8cb626b67d9a1dece60e140c
-SHA256: f65efe5f77eea364480dc453134968400f4754e23ddf57edbc79cdc082564927
+Size: 3008
+MD5sum: cb7212bb369f43e83b006bf4d148ddf0
+SHA1: 5e54adeb5ae14c4bb124391029c30d5c6ba20121
+SHA256: 539f971904df8a69d65c76e0c72f014b16aa452a90c1e692d0f584832eb1f2f0
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
@@ -814,10 +814,10 @@ Version: 1.0.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/ppa-pal-amd64.deb
-Size: 1240
-MD5sum: 59d18aeddf820a04a3ab55a242a0c34a
-SHA1: 97c195b0594297b58ad17853d0d35129caf515e2
-SHA256: 142d1e734820f5b8256dd42b07352d8489600b98db8f2b783409865e8b316d0d
+Size: 1284
+MD5sum: 042b704a8c19a0cdc33e419259432aca
+SHA1: 01ee240afc4abf267731bef66f198ab1dc797668
+SHA256: e76d9bcb48fa638dbfd45b06cb9fbe7ae38fd0cab386aca43f4ffd59b94bd710
 Priority: optional
 Description: This will setup PPA for PAL dependency and also install CMake.
 
