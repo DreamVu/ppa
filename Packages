@@ -478,12 +478,12 @@ Package: pal-dev
 Version: 5.5
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libtbb2, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2023.0.1, ppa-pal, engines-pal-dev (>= 5.2), lut-pal-dev (>= 5.5), opencv-dvu, miscellaneous-pal-dev (>= 5.4), libeigen3-dev, libarmadillo-dev, pal-uvc-driver
+Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libtbb2, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2023.1.0, ppa-pal, engines-pal-dev (>= 5.2), lut-pal-dev (>= 5.5), opencv-dvu, miscellaneous-pal-dev (>= 5.4), libeigen3-dev, libarmadillo-dev, pal-uvc-driver
 Filename: ./pal/pal-dev-amd64.deb
-Size: 3008
-MD5sum: cb7212bb369f43e83b006bf4d148ddf0
-SHA1: 5e54adeb5ae14c4bb124391029c30d5c6ba20121
-SHA256: 539f971904df8a69d65c76e0c72f014b16aa452a90c1e692d0f584832eb1f2f0
+Size: 3004
+MD5sum: 53758943a774dccc69955db836893eef
+SHA1: 068bada5c6dc759534f7b65e22b426905e736128
+SHA256: 07cf3a3d27ec379f8cc404c174a28ce1ff4be68229ffe345c41b4d0ed236faef
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
