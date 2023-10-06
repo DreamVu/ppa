@@ -810,14 +810,14 @@ Priority: optional
 Description: This will setup PPA for PAL dependency and also install CMake.
 
 Package: ppa-pal
-Version: 1.0.0
+Version: 1.1.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/ppa-pal-amd64.deb
-Size: 1284
-MD5sum: 042b704a8c19a0cdc33e419259432aca
-SHA1: 01ee240afc4abf267731bef66f198ab1dc797668
-SHA256: e76d9bcb48fa638dbfd45b06cb9fbe7ae38fd0cab386aca43f4ffd59b94bd710
+Size: 1244
+MD5sum: 6d3c3acb2c6b2aa05c12a87599339330
+SHA1: d9a82dcf9c2213a0a3da5088f1f71845c6b8f9f9
+SHA256: 4e2e8c83b694bf4081082f4c006acf394bfdd39858c94a799232039e974ccb09
 Priority: optional
 Description: This will setup PPA for PAL dependency and also install CMake.
 
