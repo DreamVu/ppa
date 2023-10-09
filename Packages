@@ -308,19 +308,6 @@ Description: This will install dependecy activation and create python virtual en
 
 Package: miscellaneous-pal-dev
 Version: 5.4
-Architecture: amd64
-Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-dev
-Filename: ./pal/miscellaneous-pal-dev-amd64.deb
-Size: 34820
-MD5sum: 41050183db0ba39a68554255dc503830
-SHA1: e3b1be5f8709fac306467c48851d37f5b2e00006
-SHA256: b5d1286a9c5181d005ffe60c1334b12af2752bcc0f3b5091aa799cb516d713f7
-Priority: optional
-Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
-
-Package: miscellaneous-pal-dev
-Version: 5.4
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-dev
@@ -329,6 +316,19 @@ Size: 34208
 MD5sum: 454b1529bc01b115199a266d097806b9
 SHA1: 2012e16421dfa008367d439567c74994bee1d4af
 SHA256: 42d0a6be128021cbdb4ef42067f4d544445c65f5d0b57ff1ada67e805d2bfde4
+Priority: optional
+Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
+
+Package: miscellaneous-pal-dev
+Version: 5.5
+Architecture: amd64
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal-dev
+Filename: ./pal/miscellaneous-pal-dev-amd64.deb
+Size: 34816
+MD5sum: 30d4d16c29b824a9d063f696d1828d5c
+SHA1: 99e0fef83c2625a28fc7e6c692e0366cc2f2df69
+SHA256: 9de739b483c66ceabb56a9e31c8a42b6230dacfaba3fe30bb532c09f091f9d3a
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
