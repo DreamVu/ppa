@@ -7,8 +7,8 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="346763421"
-MD5="737c7fb938bee67e7d573e562a96e233"
+CRCsum="766385165"
+MD5="fb9737234302266f78fed5548e034cdc"
 SHA="0000000000000000000000000000000000000000000000000000000000000000"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
@@ -17,15 +17,15 @@ export USER_PWD
 ARCHIVE_DIR=`dirname "$0"`
 export ARCHIVE_DIR
 
-label="PAL SDK"
+label="PAL SDK dev"
 script="./pal-dev"
 scriptargs=""
 cleanup_script=""
 licensetxt=""
 helpheader=''
 targetdir="Place-the-script-here"
-filesizes="255"
-totalsize="255"
+filesizes="254"
+totalsize="254"
 keep="n"
 nooverwrite="n"
 quiet="n"
@@ -376,12 +376,12 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Fri May 26 14:45:56 IST 2023
+	echo Date of packaging: Mon Oct  9 11:21:26 IST 2023
 	echo Built with Makeself version 2.4.5
 	echo Build command was: "./makeself.sh \\
     \"./Place-the-script-here\" \\
     \"pal-dev\" \\
-    \"PAL SDK\" \\
+    \"PAL SDK dev\" \\
     \"./pal-dev\""
 	if test x"$script" != x; then
 	    echo Script run after extraction:
@@ -712,4 +712,5 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ÌxpdíÒ=OÃ0`ÏùW1ûKI‰‰¡3£S[‰EhLl!ñãqK)u©Òû,'Ûç;[¶ÁŒÜºû;ªhÛå>êv©ÎãA½j™nšºQm£´fJ×«2EŠýƒ“™ËQììÌÓ.ÿšwiýx—S¼7Ùù­ìLª˜íD/½KÄŸ×ÄiH)Ä[)W½OCî„ŸdFÞß=ˆ>ôôF‡}&$þè^ÉXKü[)éÒF–§<o\£IØSáýðB·óÔê³!å`Mr_c¿-¯9ŽTvðò¯Xøøì                 ¸vï:á G (  
+‹ Þ”#eíÒ=OÃ0`ÏýW1û#$‘%v&†ÎŒNm%¡1±]„ÄÇ­B©¨H•Þg9Ywç³eÌÈ­Û³¿£
+­ÛC¬t«ÎãQ­kV5m©©uS5LUµV·Œû9&3—£ØÙ™ç}þµîR~¹Ë)^‰›µìüNv&«˜íD¯½KÄ_6ÄiH)Ä;)—«‹Þ§!wÂO2#îEzz§cŸ	‰?¹72Öÿ¶•ti+KŒSž·.ŠÑÇ$ìiãÃòÂ´óÒÕç@ÊÁšä¾Ö~W^s©tðå_ÿ\                 àš} 1yŸ/ (  
