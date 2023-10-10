@@ -501,15 +501,15 @@ Priority: optional
 Description: This will install ROS Foxy.
 
 Package: pal-foxy-navigation-dev
-Version: 5.4
+Version: 5.5
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters, pal-dev (>= 5.4)
+Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters, pal-dev (>= 5.5)
 Filename: ./pal/pal-foxy-navigation-dev.deb
-Size: 14508
-MD5sum: f939266f17d96c13c1d62b0efef647ab
-SHA1: d55c09053ac9145b1915426b963b501047e5b2d2
-SHA256: ef0f702b78f2e86b17debbe177d835d6162fe911871a289f8eb42f7ab50a5bf8
+Size: 14504
+MD5sum: 1a0bbb2f6e76854e67871a283d82108b
+SHA1: de2ea17801d6bcae22f9312e52b58b41a6140910
+SHA256: 6a6c8c36083e88186a2ed6c3e4bc228c0e7e2a036a597a6ba56f7b219a7d50d9
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -553,15 +553,15 @@ Priority: optional
 Description: This will install ROS Melodic.
 
 Package: pal-melodic-navigation-dev
-Version: 5.4
+Version: 5.5
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential, pal-dev (>= 5.4)
+Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential, pal-dev (>= 5.5)
 Filename: ./pal/pal-melodic-navigation-dev.deb
-Size: 25224
-MD5sum: 438d0bb67fd4a244bc06a89f77c3ab51
-SHA1: dbfbdaa1fa273daca3b410fde5a906862404357f
-SHA256: ec8d7b76adc38a637ae319875984d5b7d26b9db38de7360a51f913eda90ec5ba
+Size: 25220
+MD5sum: 33f5964e6db8a63dd23084e4e92ef998
+SHA1: 3912a0bf9530812476c55a8f1e37f169f422b9c0
+SHA256: bf51ba1cb94f5a6b224b5fbbc06390949345edc3875ab743606ffc86033159ff
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -696,15 +696,15 @@ Priority: optional
 Description: This will install ROS Noetic.
 
 Package: pal-noetic-navigation-dev
-Version: 5.4
+Version: 5.5
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, pal-dev (>= 5.4)
+Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, pal-dev (>= 5.5)
 Filename: ./pal/pal-noetic-navigation-dev.deb
 Size: 24028
-MD5sum: e0b75d79080b6d6699b3b5a932675c5b
-SHA1: ca6bade5cbec8190594acb980d5adb52f3f3af6d
-SHA256: a121a98c82b0497e795a4045657cc0b8e173936ab50fd8d924997ae63c8f9219
+MD5sum: 17abf0e5eff07e4ca69313c7cd92ecbc
+SHA1: 7da03cf011637f8d145652e8d9aa9bf24aea3502
+SHA256: 74eff30d647258cadaa640b30237a36f71f86264a83304fafd004fed7dd87bac
 Priority: optional
 Description: This will install ROS Noetic.
 
