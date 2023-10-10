@@ -526,6 +526,19 @@ SHA256: 20935b2ef4151eb336ebffa586d73ab434304a89714ed2e4dd2d269b4340c5dc
 Priority: optional
 Description: This will install ROS Foxy.
 
+Package: pal-humble-navigation-dev
+Version: 5.5
+Architecture: all
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: locales, ros-humble-desktop, ros-humble-ros-base, ros-dev-tools, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-humble-slam-toolbox, ros-humble-filters, pal-dev (>= 5.5)
+Filename: ./pal/pal-humble-navigation-dev.deb
+Size: 15192
+MD5sum: f250052568f7306ffd0448d1a1ce4372
+SHA1: 05ea8f29aa1409ad706d4d966fe2ce65e381589c
+SHA256: 4b5eefd0fbe5bc7bb1b79f646517e262931cb194557b133c08c2d1360dd99fda
+Priority: optional
+Description: This will install ROS Humble.
+
 Package: pal-melodic-navigation
 Version: 5.4
 Architecture: all
