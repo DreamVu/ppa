@@ -900,12 +900,12 @@ Package: ros-noetic-turtlebot-nav
 Version: 1.0
 Architecture: all
 Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
-Depends: git, ros-noetic-ecl-streams, ros-noetic-depthimage-to-laserscan, ros-noetic-joy, ros-noetic-gmapping, ros-noetic-laser-filters, ros-noetic-amcl, ros-noetic-move-base, ros-noetic-map-server, ros-noetic-kobuki-core, ros-noetic-kobuki-dock-drive-dbgsym, ros-noetic-kobuki-driver-dbgsym, ros-noetic-kobuki-ftdi-dbgsym, ros-noetic-kobuki-dock-drive, ros-noetic-kobuki-driver, ros-noetic-kobuki-ftdi, ros-noetic-kobuki-msgs
+Depends: git, ros-noetic-ecl-streams, ros-noetic-depthimage-to-laserscan, ros-noetic-joy, ros-noetic-gmapping, ros-noetic-laser-filters, ros-noetic-amcl, ros-noetic-move-base, ros-noetic-map-server, ros-noetic-kobuki-core, ros-noetic-kobuki-dock-drive-dbgsym, ros-noetic-kobuki-driver-dbgsym, ros-noetic-kobuki-ftdi-dbgsym, ros-noetic-kobuki-dock-drive, ros-noetic-kobuki-driver, ros-noetic-kobuki-ftdi, ros-noetic-kobuki-msgs, ros-noetic-urdf, ros-noetic-xacro
 Filename: ./pal/ros-noetic-turtlebot-nav.deb
-Size: 1360
-MD5sum: 0a458bd06b1fd7ef086a1c2074416ba0
-SHA1: 30af3f1f4f79e2246c8c07cd88c3170e96b7e4d3
-SHA256: 43bd99faa45356240b2d5e6571ee4f9b4647ff7d721fe15ee3390cea81087eb2
+Size: 1376
+MD5sum: 248743ae406a5141d1bc70a49c151725
+SHA1: 2c58b71e6ae3363988d98045b8ecdf0976212fd7
+SHA256: 5135cc325ee6c3c0908605cf6ab29897df5e44eed441edddabf0a6bc6b7e3d55
 Priority: optional
 Description: This will install turtlebot_nav.
 
