@@ -896,3 +896,16 @@ SHA256: 0616b90e48592c31de39da409ee3c9491c78c58018ae5fbf5cf1f1ff3b736d02
 Priority: optional
 Description: This will install turtlebot_nav.
 
+Package: ros-noetic-turtlebot-nav
+Version: 1.0
+Architecture: all
+Maintainer: Debashish Roy <debashish.roy@dreamvu.com>
+Depends: git, ros-noetic-ecl-streams, ros-noetic-depthimage-to-laserscan, ros-noetic-joy, ros-noetic-gmapping, ros-noetic-laser-filters, ros-noetic-amcl, ros-noetic-move-base, ros-noetic-map-server, ros-noetic-kobuki-core, ros-noetic-kobuki-dock-drive-dbgsym, ros-noetic-kobuki-driver-dbgsym, ros-noetic-kobuki-ftdi-dbgsym, ros-noetic-kobuki-dock-drive, ros-noetic-kobuki-driver, ros-noetic-kobuki-ftdi, ros-noetic-kobuki-msgs
+Filename: ./pal/ros-noetic-turtlebot-nav.deb
+Size: 1360
+MD5sum: 0a458bd06b1fd7ef086a1c2074416ba0
+SHA1: 30af3f1f4f79e2246c8c07cd88c3170e96b7e4d3
+SHA256: 43bd99faa45356240b2d5e6571ee4f9b4647ff7d721fe15ee3390cea81087eb2
+Priority: optional
+Description: This will install turtlebot_nav.
+
