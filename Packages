@@ -68,21 +68,21 @@ Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-arm64.deb
 Size: 14228
-MD5sum: eb9a022331dbdcb31f422238767921bc
-SHA1: 29eed834d55174dfa018d683ec83ee7122c9b8b5
-SHA256: 328908462cc3aa50a10b54fb7a22f017a4ff24f9e874d824129ea47bafcc8fe2
+MD5sum: ffcd9a253b95b272e236eafbf80f4b45
+SHA1: 6588b6ca79254d42dad9df248048ebba64011863
+SHA256: 9bd011ae35c64dacc38008f4b4ac77735b2238cf3ec9e778b1e769457dab3d83
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
 Package: engines-pal
-Version: 5.2
+Version: 5.5
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/engines-pal-amd64.deb
-Size: 13372
-MD5sum: 1871603231dfd9d836f6f619e7643ba4
-SHA1: 8e44d9d1e57b044ac25a9f3df124cc46fbac1162
-SHA256: 97b4550f28476ac52dc651ae123cba53135fed92906ae1a042f31ec987752b01
+Size: 13380
+MD5sum: 1ec770e5cc3541fbe6bd6049e317cac5
+SHA1: 440906c4bb41fc4710acfb30c1c3ce7d000eca17
+SHA256: bcb3e79613a85f98c9288b04a16476a3fceedad6031cc25ff0b7b33ceb42bbb7
 Priority: optional
 Description: This will copy the build engine script and generate files to  /usr/local/bin/data/.
 
@@ -207,14 +207,14 @@ Priority: optional
 Description: This will copy the lut files to the root directory.
 
 Package: lut-pal
-Version: 5.4
+Version: 5.5
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/pal-lut-package.deb
-Size: 394880
-MD5sum: 5f23850a1296770c0093a43ce533f05c
-SHA1: 9b5f3f195cf9220f8254167d0ad946ccf292fad5
-SHA256: 1b1feec7bc8e767a36dc11e210ffc7c989ea8305168b645bfd20171e136021a8
+Size: 394756
+MD5sum: 040267a49383e0d544a67e543335aa04
+SHA1: eeca04253b7e828631851820269694a4b1173021
+SHA256: 159cac08c352b136c0d2b8bf18db302ce0f13da9917ceda8d4facfc25cb6028c
 Priority: optional
 Description: This will copy the lut files to the root directory.
 
@@ -281,28 +281,28 @@ Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for 3D Object Detection Tracking PAL USB.
 
 Package: miscellaneous-pal
-Version: 5.4
+Version: 5.5
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-amd64.deb
-Size: 34772
-MD5sum: c9a814e86d31fa64898ad02c226585a6
-SHA1: aca9dccaef1314fdb980d973c483854d8f216dd3
-SHA256: 88cec14ed2b5832c538257212383a00e0764bf56723824477638bdd6dc629ba4
+Size: 34844
+MD5sum: d12b827cf4d833aa1b6b32e243045d9c
+SHA1: 8f06e9b99567c2e580bc41c796c9f0c1b719d1f5
+SHA256: 398816decb0058568154e890f820851101f4ffd73e5a2e3b807c8228f6e896de
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
 Package: miscellaneous-pal
-Version: 5.4
+Version: 5.5
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Depends: python3-dev, python3-venv, python3-tk, python3-pip, libpython3-dev, python3-numpy, lut-pal
 Filename: ./pal/miscellaneous-pal-arm64.deb
-Size: 34200
-MD5sum: 276cbbfc981a08e7348fd7b090fe5309
-SHA1: be43f7cde9709135d5057d8a268df3d7068d8b7e
-SHA256: 4a24ec7c0526478b5751830ea8ed9058cdf0f6bb8ebde19de56fcb03139b823e
+Size: 39224
+MD5sum: 20d976decff806cfdb77b4fd63e55e8c
+SHA1: f1fa5e593a2dd1d828ac05868fb9970a6cb5e13c
+SHA256: 40965199e3fc71740d4dbb449764141109ebbb987715b131bc2a850d7cd04d51
 Priority: optional
 Description: This will install dependecy activation and create python virtual environment and installs some packages for pal.
 
@@ -436,28 +436,28 @@ Priority: optional
 Description: This will install Open CV.
 
 Package: pal
-Version: 5.4
+Version: 5.5
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: git-lfs, git, xorg, build-essential, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libv4l-dev, libsdl1.2-dev, libsdl2-dev, python3-dev, python3-venv, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, libglew-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libeigen3-dev, lut-pal (>= 5.4), engines-pal (>= 5.2), miscellaneous-pal (>= 5.4), opencv-dvu, jetsongpio-dvu (>= 5.3.4), libarmadillo-dev, pal-uvc-driver
+Depends: git-lfs, git, xorg, build-essential, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libv4l-dev, libsdl1.2-dev, libsdl2-dev, python3-dev, python3-venv, python3-tk, python3-pip, libhdf5-serial-dev, hdf5-tools, libhdf5-dev, zlib1g-dev, zip, libjpeg8-dev, libjpeg-dev, zlib1g-dev, libopenblas-base, libopenmpi-dev, libpython3-dev, python3-numpy, libglew-dev, glew-utils, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libglib2.0-dev, libglew-dev, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libeigen3-dev, lut-pal (>= 5.5), engines-pal (>= 5.2), miscellaneous-pal (>= 5.4), opencv-dvu, jetsongpio-dvu (>= 5.3.4), libarmadillo-dev, pal-uvc-driver
 Filename: ./pal/pal-arm64.deb
-Size: 2716
-MD5sum: b01e8422dffe42953b3206858c2462f1
-SHA1: 09b4f15ee6906028a2f914a077233c87fd23601d
-SHA256: 380c64927f26ca401df1a8aa3103490b6b75542897382a92045102f0b6d5ab54
+Size: 2732
+MD5sum: 97de22bc462a7cad401cba0db7a3c523
+SHA1: 4a7bdbc26d5f7d477b832b976d85a45f16001432
+SHA256: ee395afbe8a267156c40f72e959ac96cf03d12ac979c904861a30d2c408cf000
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
 Package: pal
-Version: 5.4
+Version: 5.5
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libtbb2, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, qt5-default, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2022.1.0, ppa-pal, engines-pal (>= 5.2), lut-pal (>= 5.4), opencv-dvu, miscellaneous-pal (>= 5.4), libeigen3-dev, libarmadillo-dev, pal-uvc-driver
+Depends: git, git-lfs, build-essential, cmake, unzip, pkg-config, libtbb2, libjpeg-dev, libpng-dev, libtiff-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libv4l-dev, libxvidcore-dev, libx264-dev, libgtk-3-dev, libgtk2.0-dev, libhdf5-dev, libatlas-base-dev, gfortran, ffmpeg, g++, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, curl, gstreamer1.0-tools, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjpeg-dev, libglu1-mesa-dev, freeglut3, freeglut3-dev, mesa-common-dev, libusb-1.0-0-dev, libusb-1.0-0, libudev-dev, libsdl1.2-dev, libsdl2-dev, libusb-1.0-0-dev, xorg, openvino-2023.1.0, ppa-pal, engines-pal (>= 5.5), lut-pal (>= 5.5), opencv-dvu, miscellaneous-pal (>= 5.5), libeigen3-dev, libarmadillo-dev, pal-uvc-driver, qtbase5-dev, qt5-qmake, cmake
 Filename: ./pal/pal-amd64.deb
-Size: 2956
-MD5sum: 8f962f5905d156758f5efdfa3eafdfe3
-SHA1: 406c3ead28ba3898f8590af2d536762e728f61a3
-SHA256: 5840d133a876de0b28c64ad125c120ac1345d33c4202c08434b89746912190b9
+Size: 3004
+MD5sum: 79ab16682b7cf85ac2e3577976e98958
+SHA1: 0194212beaad8a4d1e5153248d254454664e6428
+SHA256: 8536f242c612c51a927e10c1db6eded466d55a411d168a3792fda5f3eb3e4ff0
 Priority: optional
 Description: This will install PAL along with it's dependencies.
 
@@ -488,15 +488,15 @@ Priority: optional
 Description: This will install PAL along with it's dependencies.
 
 Package: pal-foxy-navigation
-Version: 5.4
+Version: 5.5
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters, pal (>= 5.4)
+Depends: locales, ros-foxy-desktop, ros-foxy-ros-base, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-foxy-slam-toolbox, ros-foxy-filters, pal (>= 5.5)
 Filename: ./pal/pal-foxy-navigation.deb
-Size: 14584
-MD5sum: c5931db55c812af84da9c531391ec7ff
-SHA1: f508d21360da00816d38db3342d1af338dfd6797
-SHA256: 8ef787ca34afbf6652972563f36f4b98b788431495577dffacff8a3035ca8141
+Size: 14764
+MD5sum: b77c6988302d64cf3e0f1782cc4eeaac
+SHA1: 6ef5ccdb93452583940b9b2e731fa0ddf72e1b15
+SHA256: 8e4ece599f83e84e7d846050829897ae6c94e768b3991309a912dff8552ac68e
 Priority: optional
 Description: This will install ROS Foxy.
 
@@ -526,6 +526,19 @@ SHA256: 20935b2ef4151eb336ebffa586d73ab434304a89714ed2e4dd2d269b4340c5dc
 Priority: optional
 Description: This will install ROS Foxy.
 
+Package: pal-humble-navigation
+Version: 5.5
+Architecture: all
+Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
+Depends: locales, ros-humble-desktop, ros-humble-ros-base, ros-dev-tools, python3-colcon-common-extensions, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, ros-humble-slam-toolbox, ros-humble-filters, pal (>= 5.5)
+Filename: ./pal/pal-humble-navigation.deb
+Size: 15384
+MD5sum: 2bc74cf2f14246755f18e8e6542d75ab
+SHA1: 1f0e30000bebb4d9626b1918406bf8424a59b505
+SHA256: 11f5882e2b89a38d853423f040648c1587c9c1e3138890ceb102d014dde3b37f
+Priority: optional
+Description: This will install ROS Humble.
+
 Package: pal-humble-navigation-dev
 Version: 5.5
 Architecture: all
@@ -540,15 +553,15 @@ Priority: optional
 Description: This will install ROS Humble.
 
 Package: pal-melodic-navigation
-Version: 5.4
+Version: 5.5
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential, pal (>= 5.4)
+Depends: ros-melodic-desktop, ros-melodic-laser-filters, ros-melodic-ira-laser-tools, python-rosdep, python-rosinstall, python-rosinstall-generator, python-wstool, build-essential, pal (>= 5.5)
 Filename: ./pal/pal-melodic-navigation.deb
-Size: 24324
-MD5sum: fa210f345940e323652ec6b76cfb8334
-SHA1: 42caf07faaf16c48b0411f43c57a587157861265
-SHA256: b17fd38f903c7df5bdaa3741d4e9f854ff6c81f5b96c0907d5a2bd1f45c22bec
+Size: 24380
+MD5sum: a9e01ea0d5827f54bdb1964b6324e67f
+SHA1: 5468313be16283802105d538d511c84e084f6efb
+SHA256: e5e6e6c8beff1d9b233c4e4453c3c91a270d590c73d4fc66afb2fd2ffbb6deef
 Priority: optional
 Description: This will install ROS Melodic.
 
@@ -683,15 +696,15 @@ Priority: optional
 Description: This will install PAL Mini along with it's dependencies.
 
 Package: pal-noetic-navigation
-Version: 5.4
+Version: 5.5
 Architecture: all
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
-Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, pal (>= 5.4)
+Depends: ros-noetic-desktop, ros-noetic-laser-filters, ros-noetic-ira-laser-tools, python3-rosdep, python3-rosinstall, python3-rosinstall-generator, python3-wstool, build-essential, pal (>= 5.5)
 Filename: ./pal/pal-noetic-navigation.deb
-Size: 24144
-MD5sum: ed82f94d6726ba0a075ee7c6fb9b4681
-SHA1: 9a0971defc8c969606dbee16fa30ae360b820c25
-SHA256: 215bc7b79b879accedbe5ebcb7f74915a49aaef6701fb4a003590510b62c3d65
+Size: 24360
+MD5sum: 9dae527f7671b3eff56bf4144fcd91c1
+SHA1: dcbe6bcf99fe5980bae1ce5fa57c1033f5fa5f4d
+SHA256: c5fb23a6b185ae945b695aa29c67dd8d1d3cbf7a59a7a7b2cfabd0b335518008
 Priority: optional
 Description: This will install ROS Noetic.
 
@@ -811,14 +824,14 @@ Priority: optional
 Description: This will rebuild the uvc driver for increased bandwidth
 
 Package: ppa-pal
-Version: 1.0.0
+Version: 1.1.0
 Architecture: arm64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/ppa-pal-arm64.deb
-Size: 1188
-MD5sum: 8abd2a8a8de9599d784d176a2e19fb16
-SHA1: 04b0214ba0e813cafc86cb670512c89ad67791c5
-SHA256: b9a09d0a71d23c9222f0624e05f5e0dbf44ec25bfed0020b0a1c20e5130543c5
+Size: 1196
+MD5sum: 714cec18f20d94e19a818c5f75eb82c9
+SHA1: 4138d26cf0490e075ee52dffb23f854dc86b865e
+SHA256: 0f7c5a1fe645500698ab9ddf8643665904ab7e66cc1df24889cd910a01a0adf7
 Priority: optional
 Description: This will setup PPA for PAL dependency and also install CMake.
 
@@ -827,10 +840,10 @@ Version: 1.1.0
 Architecture: amd64
 Maintainer: Piyush Khandelwal <piyush_khandelwal@dreamvu.com>
 Filename: ./pal/ppa-pal-amd64.deb
-Size: 1244
-MD5sum: 6d3c3acb2c6b2aa05c12a87599339330
-SHA1: d9a82dcf9c2213a0a3da5088f1f71845c6b8f9f9
-SHA256: 4e2e8c83b694bf4081082f4c006acf394bfdd39858c94a799232039e974ccb09
+Size: 1284
+MD5sum: 4d4a1c8cb69bd36c402eddffe1082154
+SHA1: 73d473c831a2c85de8a7fcfc18d3d59fa0a626ac
+SHA256: 4aed4a14619bb9ef255f0e458716dcb41d7b0fecd122da0408450e59d542b121
 Priority: optional
 Description: This will setup PPA for PAL dependency and also install CMake.
 
